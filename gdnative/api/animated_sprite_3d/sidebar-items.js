@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AnimatedSprite3D","`core class AnimatedSprite3D` inherits `SpriteBase3D` (unsafe)."]]});

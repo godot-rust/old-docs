@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PCKPacker","`core class PCKPacker` inherits `Reference` (reference counted)."]]});

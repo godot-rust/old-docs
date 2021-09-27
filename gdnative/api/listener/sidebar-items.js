@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Listener","`core class Listener` inherits `Spatial` (unsafe)."]]});

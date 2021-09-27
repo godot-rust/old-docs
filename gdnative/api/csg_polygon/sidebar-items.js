@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CSGPolygon","`core class CSGPolygon` inherits `CSGPrimitive` (unsafe)."],["Mode",""],["PathRotation",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Physics2DTestMotionResult","`core class Physics2DTestMotionResult` inherits `Reference` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ARVROrigin","`core class ARVROrigin` inherits `Spatial` (unsafe)."]]});

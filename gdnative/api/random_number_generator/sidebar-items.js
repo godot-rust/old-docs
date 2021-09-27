@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["RandomNumberGenerator","`core class RandomNumberGenerator` inherits `Reference` (reference counted)."]]});

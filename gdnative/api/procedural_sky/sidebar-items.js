@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ProceduralSky","`core class ProceduralSky` inherits `Sky` (reference counted)."],["TextureSize",""]]});

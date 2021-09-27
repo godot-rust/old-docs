@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["WorldEnvironment","`core class WorldEnvironment` inherits `Node` (unsafe)."]]});

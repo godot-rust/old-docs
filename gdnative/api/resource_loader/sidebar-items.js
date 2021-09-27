@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ResourceLoader","`core singleton class ResourceLoader` inherits `Object` (unsafe)."]]});

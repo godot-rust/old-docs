@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["InterpolatedCamera","`core class InterpolatedCamera` inherits `Camera` (unsafe)."]]});

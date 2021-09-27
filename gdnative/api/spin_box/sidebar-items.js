@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["SpinBox","`core class SpinBox` inherits `Range` (unsafe)."]]});

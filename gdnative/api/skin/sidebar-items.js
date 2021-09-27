@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Skin","`core class Skin` inherits `Resource` (reference counted)."]]});

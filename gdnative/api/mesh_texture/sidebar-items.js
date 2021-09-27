@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["MeshTexture","`core class MeshTexture` inherits `Texture` (reference counted)."]]});

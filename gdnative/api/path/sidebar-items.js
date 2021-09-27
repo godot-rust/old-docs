@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Path","`core class Path` inherits `Spatial` (unsafe)."]]});

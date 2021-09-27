@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EditorFeatureProfile","`tools class EditorFeatureProfile` inherits `Reference` (reference counted)."],["Feature",""]]});

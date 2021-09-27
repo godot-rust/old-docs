@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ColorPicker","`core class ColorPicker` inherits `BoxContainer` (unsafe)."]]});

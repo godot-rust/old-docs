@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Position3D","`core class Position3D` inherits `Spatial` (unsafe)."]]});

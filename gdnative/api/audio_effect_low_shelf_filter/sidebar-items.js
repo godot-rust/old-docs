@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AudioEffectLowShelfFilter","`core class AudioEffectLowShelfFilter` inherits `AudioEffectFilter` (reference counted)."]]});

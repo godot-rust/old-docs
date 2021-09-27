@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["TextureArray","`core class TextureArray` inherits `TextureLayered` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Crypto","`core class Crypto` inherits `Reference` (reference counted)."]]});

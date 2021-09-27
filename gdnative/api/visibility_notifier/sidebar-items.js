@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisibilityNotifier","`core class VisibilityNotifier` inherits `Spatial` (unsafe)."]]});

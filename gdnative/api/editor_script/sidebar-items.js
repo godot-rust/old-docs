@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EditorScript","`tools class EditorScript` inherits `Reference` (reference counted)."]]});

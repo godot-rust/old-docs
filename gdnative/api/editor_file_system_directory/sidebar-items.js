@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EditorFileSystemDirectory","`tools class EditorFileSystemDirectory` inherits `Object` (unsafe)."]]});

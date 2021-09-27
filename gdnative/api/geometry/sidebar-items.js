@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Geometry","`core singleton class Geometry` inherits `Object` (unsafe)."],["PolyBooleanOperation",""],["PolyEndType",""],["PolyJoinType",""]]});

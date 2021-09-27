@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["WebRTCDataChannelGDNative","`core class WebRTCDataChannelGDNative` inherits `WebRTCDataChannel` (reference counted)."]]});

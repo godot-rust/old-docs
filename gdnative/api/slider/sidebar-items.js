@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Slider","`core class Slider` inherits `Range` (unsafe)."]]});

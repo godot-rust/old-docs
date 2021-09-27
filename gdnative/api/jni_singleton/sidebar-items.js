@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["JNISingleton","`core class JNISingleton` inherits `Object` (unsafe)."]]});

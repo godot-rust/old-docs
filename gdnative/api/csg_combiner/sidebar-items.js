@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CSGCombiner","`core class CSGCombiner` inherits `CSGShape` (unsafe)."]]});

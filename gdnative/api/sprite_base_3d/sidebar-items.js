@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AlphaCutMode",""],["DrawFlags",""],["SpriteBase3D","`core class SpriteBase3D` inherits `GeometryInstance` (unsafe)."]]});

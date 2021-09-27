@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AudioEffectPitchShift","`core class AudioEffectPitchShift` inherits `AudioEffect` (reference counted)."],["FftSize",""]]});

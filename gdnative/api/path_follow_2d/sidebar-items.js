@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PathFollow2D","`core class PathFollow2D` inherits `Node2D` (unsafe)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["InputEventAction","`core class InputEventAction` inherits `InputEvent` (reference counted)."]]});

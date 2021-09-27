@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["WebSocketMultiplayerPeer","`core class WebSocketMultiplayerPeer` inherits `NetworkedMultiplayerPeer` (reference counted)."]]});

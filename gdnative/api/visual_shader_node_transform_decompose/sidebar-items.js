@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisualShaderNodeTransformDecompose","`core class VisualShaderNodeTransformDecompose` inherits `VisualShaderNode` (reference counted)."]]});

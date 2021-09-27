@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Source",""],["TextureType",""],["VisualShaderNodeTexture","`core class VisualShaderNodeTexture` inherits `VisualShaderNode` (reference counted)."]]});

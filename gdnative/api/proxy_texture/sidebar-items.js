@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ProxyTexture","`core class ProxyTexture` inherits `Texture` (reference counted)."]]});

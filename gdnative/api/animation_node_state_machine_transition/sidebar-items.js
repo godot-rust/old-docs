@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AnimationNodeStateMachineTransition","`core class AnimationNodeStateMachineTransition` inherits `Resource` (reference counted)."],["SwitchMode",""]]});

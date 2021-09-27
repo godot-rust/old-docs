@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PHashTranslation","`core class PHashTranslation` inherits `Translation` (reference counted)."]]});

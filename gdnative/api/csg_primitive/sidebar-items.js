@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CSGPrimitive","`core class CSGPrimitive` inherits `CSGShape` (unsafe)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Anchor",""],["Control","`core class Control` inherits `CanvasItem` (unsafe)."],["CursorShape",""],["FocusMode",""],["GrowDirection",""],["LayoutPreset",""],["LayoutPresetMode",""],["MouseFilter",""],["SizeFlags",""]]});

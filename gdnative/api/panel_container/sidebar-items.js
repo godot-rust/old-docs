@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PanelContainer","`core class PanelContainer` inherits `Container` (unsafe)."]]});

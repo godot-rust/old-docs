@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Mode",""],["RigidBody","`core class RigidBody` inherits `PhysicsBody` (unsafe)."]]});

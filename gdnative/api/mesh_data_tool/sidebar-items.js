@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["MeshDataTool","`core class MeshDataTool` inherits `Reference` (reference counted)."]]});

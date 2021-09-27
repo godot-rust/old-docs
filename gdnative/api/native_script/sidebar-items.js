@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["NativeScript","`core class NativeScript` inherits `Script` (reference counted)."]]});

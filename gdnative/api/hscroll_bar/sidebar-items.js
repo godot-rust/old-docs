@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["HScrollBar","`core class HScrollBar` inherits `ScrollBar` (unsafe)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CallMode",""],["VisualScriptYieldSignal","`core class VisualScriptYieldSignal` inherits `VisualScriptNode` (reference counted)."]]});

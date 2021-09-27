@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["BitmapFont","`core class BitmapFont` inherits `Font` (reference counted)."]]});

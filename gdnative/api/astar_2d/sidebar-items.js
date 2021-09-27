@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AStar2D","`core class AStar2D` inherits `Reference` (reference counted)."]]});

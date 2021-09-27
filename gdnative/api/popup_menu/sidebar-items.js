@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PopupMenu","`core class PopupMenu` inherits `Popup` (unsafe)."]]});

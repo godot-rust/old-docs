@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ParallaxBackground","`core class ParallaxBackground` inherits `CanvasLayer` (unsafe)."]]});

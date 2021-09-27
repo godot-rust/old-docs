@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PointMesh","`core class PointMesh` inherits `PrimitiveMesh` (reference counted)."]]});

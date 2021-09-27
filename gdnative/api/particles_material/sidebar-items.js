@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EmissionShape",""],["Flags",""],["Parameter",""],["ParticlesMaterial","`core class ParticlesMaterial` inherits `Material` (reference counted)."]]});

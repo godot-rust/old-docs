@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["SpatialVelocityTracker","`core class SpatialVelocityTracker` inherits `Reference` (reference counted)."]]});

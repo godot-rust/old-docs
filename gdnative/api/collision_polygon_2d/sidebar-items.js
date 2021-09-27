@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["BuildMode",""],["CollisionPolygon2D","`core class CollisionPolygon2D` inherits `Node2D` (unsafe)."]]});

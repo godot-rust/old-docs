@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisualScriptSceneNode","`core class VisualScriptSceneNode` inherits `VisualScriptNode` (reference counted)."]]});

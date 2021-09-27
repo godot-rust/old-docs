@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CharFXTransform","`core class CharFXTransform` inherits `Reference` (reference counted)."]]});

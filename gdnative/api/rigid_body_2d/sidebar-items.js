@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CcdMode",""],["Mode",""],["RigidBody2D","`core class RigidBody2D` inherits `PhysicsBody2D` (unsafe)."]]});

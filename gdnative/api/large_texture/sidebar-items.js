@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["LargeTexture","`core class LargeTexture` inherits `Texture` (reference counted)."]]});

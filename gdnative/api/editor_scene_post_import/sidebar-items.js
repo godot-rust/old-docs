@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EditorScenePostImport","`tools class EditorScenePostImport` inherits `Reference` (reference counted)."]]});

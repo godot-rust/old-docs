@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["RadianceSize",""],["Sky","`core class Sky` inherits `Resource` (reference counted)."]]});

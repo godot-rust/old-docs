@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AudioStreamPlaybackResampled","`core class AudioStreamPlaybackResampled` inherits `AudioStreamPlayback` (reference counted)."]]});

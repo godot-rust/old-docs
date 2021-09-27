@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["InputEventMIDI","`core class InputEventMIDI` inherits `InputEvent` (reference counted)."]]});

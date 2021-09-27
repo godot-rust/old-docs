@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["SpotLight","`core class SpotLight` inherits `Light` (unsafe)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AlphaMode",""],["CompressMode",""],["CompressSource",""],["Format",""],["Image","`core class Image` inherits `Resource` (reference counted)."],["Interpolation",""]]});

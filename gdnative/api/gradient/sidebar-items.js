@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Gradient","`core class Gradient` inherits `Resource` (reference counted)."]]});

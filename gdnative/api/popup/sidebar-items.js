@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Popup","`core class Popup` inherits `Control` (unsafe)."]]});

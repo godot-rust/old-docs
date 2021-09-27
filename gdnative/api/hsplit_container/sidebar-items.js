@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["HSplitContainer","`core class HSplitContainer` inherits `SplitContainer` (unsafe)."]]});

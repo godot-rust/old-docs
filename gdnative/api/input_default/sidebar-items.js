@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["InputDefault","`core class InputDefault` inherits `Input` (unsafe)."]]});

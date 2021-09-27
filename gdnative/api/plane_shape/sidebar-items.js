@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PlaneShape","`core class PlaneShape` inherits `Shape` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["WebRTCPeerConnectionGDNative","`core class WebRTCPeerConnectionGDNative` inherits `WebRTCPeerConnection` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PluginScript","`core class PluginScript` inherits `Script` (reference counted)."]]});

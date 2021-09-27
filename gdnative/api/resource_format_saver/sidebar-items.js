@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ResourceFormatSaver","`core class ResourceFormatSaver` inherits `Reference` (reference counted)."]]});

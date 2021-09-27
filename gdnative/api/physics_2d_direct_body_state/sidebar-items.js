@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Physics2DDirectBodyState","`core class Physics2DDirectBodyState` inherits `Object` (unsafe)."]]});

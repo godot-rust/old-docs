@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CustomControlContainer",""],["DockSlot",""],["EditorPlugin","`tools class EditorPlugin` inherits `Node` (unsafe)."]]});

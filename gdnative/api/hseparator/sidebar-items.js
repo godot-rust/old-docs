@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["HSeparator","`core class HSeparator` inherits `Separator` (unsafe)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["TabAlign",""],["TabContainer","`core class TabContainer` inherits `Container` (unsafe)."]]});

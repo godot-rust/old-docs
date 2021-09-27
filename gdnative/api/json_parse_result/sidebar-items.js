@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["JSONParseResult","`core class JSONParseResult` inherits `Reference` (reference counted)."]]});

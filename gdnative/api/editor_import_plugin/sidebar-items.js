@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EditorImportPlugin","`tools class EditorImportPlugin` inherits `ResourceImporter` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VBoxContainer","`core class VBoxContainer` inherits `BoxContainer` (unsafe)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["TranslationServer","`core singleton class TranslationServer` inherits `Object` (unsafe)."]]});

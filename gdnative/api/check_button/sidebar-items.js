@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CheckButton","`core class CheckButton` inherits `Button` (unsafe)."]]});

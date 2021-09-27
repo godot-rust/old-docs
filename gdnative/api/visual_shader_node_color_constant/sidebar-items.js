@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisualShaderNodeColorConstant","`core class VisualShaderNodeColorConstant` inherits `VisualShaderNode` (reference counted)."]]});

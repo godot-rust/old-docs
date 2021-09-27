@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EditorSpatialGizmoPlugin","`tools class EditorSpatialGizmoPlugin` inherits `Resource` (reference counted)."]]});

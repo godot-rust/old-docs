@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["BillboardMode",""],["BlendMode",""],["CullMode",""],["DepthDrawMode",""],["DetailUv",""],["DiffuseMode",""],["DistanceFadeMode",""],["EmissionOperator",""],["Feature",""],["Flags",""],["SpatialMaterial","`core class SpatialMaterial` inherits `Material` (reference counted)."],["SpecularMode",""],["TextureChannel",""],["TextureParam",""]]});

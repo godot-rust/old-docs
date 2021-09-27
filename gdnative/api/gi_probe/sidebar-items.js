@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["GIProbe","`core class GIProbe` inherits `VisualInstance` (unsafe)."],["Subdiv",""]]});

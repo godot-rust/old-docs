@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VideoPlayer","`core class VideoPlayer` inherits `Control` (unsafe)."]]});

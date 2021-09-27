@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EditorVCSInterface","`tools class EditorVCSInterface` inherits `Object` (unsafe)."]]});

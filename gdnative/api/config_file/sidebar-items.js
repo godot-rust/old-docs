@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ConfigFile","`core class ConfigFile` inherits `Reference` (reference counted)."]]});

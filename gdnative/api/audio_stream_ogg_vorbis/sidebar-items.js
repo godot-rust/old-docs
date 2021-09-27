@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AudioStreamOGGVorbis","`core class AudioStreamOGGVorbis` inherits `AudioStream` (reference counted)."]]});

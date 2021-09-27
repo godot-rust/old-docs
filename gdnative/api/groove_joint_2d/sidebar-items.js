@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["GrooveJoint2D","`core class GrooveJoint2D` inherits `Joint2D` (unsafe)."]]});

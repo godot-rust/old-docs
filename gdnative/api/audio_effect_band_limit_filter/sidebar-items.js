@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AudioEffectBandLimitFilter","`core class AudioEffectBandLimitFilter` inherits `AudioEffectFilter` (reference counted)."]]});

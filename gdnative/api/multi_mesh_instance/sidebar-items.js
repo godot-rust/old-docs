@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["MultiMeshInstance","`core class MultiMeshInstance` inherits `GeometryInstance` (unsafe)."]]});

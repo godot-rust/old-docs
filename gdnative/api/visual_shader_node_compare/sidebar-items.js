@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ComparisonType",""],["Condition",""],["Function",""],["VisualShaderNodeCompare","`core class VisualShaderNodeCompare` inherits `VisualShaderNode` (reference counted)."]]});

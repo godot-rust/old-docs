@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ColorFormat",""],["CustomDataFormat",""],["MultiMesh","`core class MultiMesh` inherits `Resource` (reference counted)."],["TransformFormat",""]]});

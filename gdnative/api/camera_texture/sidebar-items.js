@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CameraTexture","`core class CameraTexture` inherits `Texture` (reference counted)."]]});

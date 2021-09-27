@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["MultiplayerAPI","`core class MultiplayerAPI` inherits `Reference` (reference counted)."],["RpcMode",""]]});

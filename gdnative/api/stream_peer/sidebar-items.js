@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["StreamPeer","`core class StreamPeer` inherits `Reference` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["FileSystemDock","`tools class FileSystemDock` inherits `VBoxContainer` (unsafe)."]]});

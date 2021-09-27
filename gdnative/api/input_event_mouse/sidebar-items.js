@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["InputEventMouse","`core class InputEventMouse` inherits `InputEventWithModifiers` (reference counted)."]]});

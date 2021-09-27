@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ARVRCamera","`core class ARVRCamera` inherits `Camera` (unsafe)."]]});

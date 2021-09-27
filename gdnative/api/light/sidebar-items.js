@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["BakeMode",""],["Light","`core class Light` inherits `VisualInstance` (unsafe)."],["Param",""]]});

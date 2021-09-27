@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["DirectionalLight","`core class DirectionalLight` inherits `Light` (unsafe)."],["ShadowDepthRange",""],["ShadowMode",""]]});

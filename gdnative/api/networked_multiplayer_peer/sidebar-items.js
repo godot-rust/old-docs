@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ConnectionStatus",""],["NetworkedMultiplayerPeer","`core class NetworkedMultiplayerPeer` inherits `PacketPeer` (reference counted)."],["TransferMode",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["MultiMeshInstance2D","`core class MultiMeshInstance2D` inherits `Node2D` (unsafe)."]]});

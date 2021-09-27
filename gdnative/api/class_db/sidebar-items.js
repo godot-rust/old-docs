@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ClassDB","`core singleton class ClassDB` inherits `Object` (unsafe)."]]});

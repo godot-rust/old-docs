@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["JointType",""],["PhysicalBone","`core class PhysicalBone` inherits `PhysicsBody` (unsafe)."]]});

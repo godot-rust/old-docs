@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AlignMode",""],["AspectRatioContainer","`core class AspectRatioContainer` inherits `Container` (unsafe)."],["StretchMode",""]]});

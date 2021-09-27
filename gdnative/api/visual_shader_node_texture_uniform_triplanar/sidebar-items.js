@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisualShaderNodeTextureUniformTriplanar","`core class VisualShaderNodeTextureUniformTriplanar` inherits `VisualShaderNodeTextureUniform` (reference counted)."]]});

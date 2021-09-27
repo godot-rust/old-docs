@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisualShaderNodeFaceForward","`core class VisualShaderNodeFaceForward` inherits `VisualShaderNode` (reference counted)."]]});

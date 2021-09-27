@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AudioEffectSpectrumAnalyzerInstance","`core class AudioEffectSpectrumAnalyzerInstance` inherits `AudioEffectInstance` (reference counted)."],["MagnitudeMode",""]]});

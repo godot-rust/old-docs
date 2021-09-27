@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Mode",""],["Shader","`core class Shader` inherits `Resource` (reference counted)."]]});

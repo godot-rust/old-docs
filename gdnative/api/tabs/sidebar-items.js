@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CloseButtonDisplayPolicy",""],["TabAlign",""],["Tabs","`core class Tabs` inherits `Control` (unsafe)."]]});

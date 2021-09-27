@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["EncodedObjectAsID","`core class EncodedObjectAsID` inherits `Reference` (reference counted)."]]});

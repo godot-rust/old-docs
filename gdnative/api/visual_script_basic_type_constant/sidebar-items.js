@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisualScriptBasicTypeConstant","`core class VisualScriptBasicTypeConstant` inherits `VisualScriptNode` (reference counted)."]]});

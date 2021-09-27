@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PrismMesh","`core class PrismMesh` inherits `PrimitiveMesh` (reference counted)."]]});

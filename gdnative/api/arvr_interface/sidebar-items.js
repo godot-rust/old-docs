@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ARVRInterface","`core class ARVRInterface` inherits `Reference` (reference counted)."],["Capabilities",""],["Eyes",""],["TrackingStatus",""]]});

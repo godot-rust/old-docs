@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["DynamicFont","`core class DynamicFont` inherits `Font` (reference counted)."],["SpacingType",""]]});

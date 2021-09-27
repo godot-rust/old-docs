@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ShortCut","`core class ShortCut` inherits `Resource` (reference counted)."]]});

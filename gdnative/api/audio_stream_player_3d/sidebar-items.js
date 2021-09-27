@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AttenuationModel",""],["AudioStreamPlayer3D","`core class AudioStreamPlayer3D` inherits `Spatial` (unsafe)."],["DopplerTracking",""],["OutOfRangeMode",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CursorShape",""],["Input","`core singleton class Input` inherits `Object` (unsafe)."],["MouseMode",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Dictionary","A reference-counted `Dictionary` of `Variant` key-value pairs."],["IntoIter","Iterator through all key-value pairs in a unique `Dictionary`."],["Iter","Iterator through all key-value pairs in a unique `Dictionary`."]]});

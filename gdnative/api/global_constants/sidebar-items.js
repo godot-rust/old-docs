@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["GlobalConstants","`core singleton class GlobalConstants` (reference counted)."]]});

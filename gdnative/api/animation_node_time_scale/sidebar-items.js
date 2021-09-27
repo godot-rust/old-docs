@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AnimationNodeTimeScale","`core class AnimationNodeTimeScale` inherits `AnimationNode` (reference counted)."]]});

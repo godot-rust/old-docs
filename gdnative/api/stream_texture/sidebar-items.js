@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["StreamTexture","`core class StreamTexture` inherits `Texture` (reference counted)."]]});

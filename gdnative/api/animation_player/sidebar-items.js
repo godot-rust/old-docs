@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AnimationMethodCallMode",""],["AnimationPlayer","`core class AnimationPlayer` inherits `Node` (unsafe)."],["AnimationProcessMode",""]]});

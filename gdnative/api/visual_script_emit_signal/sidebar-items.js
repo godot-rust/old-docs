@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VisualScriptEmitSignal","`core class VisualScriptEmitSignal` inherits `VisualScriptNode` (reference counted)."]]});

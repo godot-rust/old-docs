@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CPUParticles2D","`core class CPUParticles2D` inherits `Node2D` (unsafe)."],["DrawOrder",""],["EmissionShape",""],["Flags",""],["Parameter",""]]});

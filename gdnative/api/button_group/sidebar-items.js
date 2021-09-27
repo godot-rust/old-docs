@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ButtonGroup","`core class ButtonGroup` inherits `Resource` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VideoStreamTheora","`core class VideoStreamTheora` inherits `VideoStream` (reference counted)."]]});

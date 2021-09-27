@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["OmniLight","`core class OmniLight` inherits `Light` (unsafe)."],["ShadowDetail",""],["ShadowMode",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["HandleType",""],["Month",""],["OS","`core singleton class OS` inherits `Object` (unsafe)."],["PowerState",""],["ScreenOrientation",""],["SystemDir",""],["VideoDriver",""],["Weekday",""]]});

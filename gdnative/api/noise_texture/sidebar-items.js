@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["NoiseTexture","`core class NoiseTexture` inherits `Texture` (reference counted)."]]});

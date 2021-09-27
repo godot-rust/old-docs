@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["GridMap","`core class GridMap` inherits `Spatial` (unsafe)."]]});

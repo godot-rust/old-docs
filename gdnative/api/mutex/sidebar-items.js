@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Mutex","`core class Mutex` inherits `Reference` (reference counted)."]]});

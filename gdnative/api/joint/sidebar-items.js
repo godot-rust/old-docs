@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Joint","`core class Joint` inherits `Spatial` (unsafe)."]]});

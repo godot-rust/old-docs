@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CurveTexture","`core class CurveTexture` inherits `Texture` (reference counted)."]]});

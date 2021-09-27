@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["OptionButton","`core class OptionButton` inherits `Button` (unsafe)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ARVRInterfaceGDNative","`core class ARVRInterfaceGDNative` inherits `ARVRInterface` (reference counted)."]]});

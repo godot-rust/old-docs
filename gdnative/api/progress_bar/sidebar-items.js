@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ProgressBar","`core class ProgressBar` inherits `Range` (unsafe)."]]});

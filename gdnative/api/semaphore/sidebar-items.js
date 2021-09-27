@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Semaphore","`core class Semaphore` inherits `Reference` (reference counted)."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PathFollow","`core class PathFollow` inherits `Spatial` (unsafe)."],["RotationMode",""]]});

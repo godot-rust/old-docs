@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["StyleBoxFlat","`core class StyleBoxFlat` inherits `StyleBox` (reference counted)."]]});

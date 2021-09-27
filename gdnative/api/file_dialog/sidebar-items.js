@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Access",""],["FileDialog","`core class FileDialog` inherits `ConfirmationDialog` (unsafe)."],["Mode",""]]});

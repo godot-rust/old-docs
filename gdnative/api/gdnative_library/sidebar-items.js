@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["GDNativeLibrary","`core class GDNativeLibrary` inherits `Resource` (reference counted)."]]});

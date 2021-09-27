@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PacketPeerStream","`core class PacketPeerStream` inherits `PacketPeer` (reference counted)."]]});
