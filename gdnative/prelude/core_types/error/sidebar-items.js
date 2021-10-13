@@ -1,1 +1,0 @@
-initSidebarItems({"enum":[["GodotError","Error codes used in various Godot APIs."]]});

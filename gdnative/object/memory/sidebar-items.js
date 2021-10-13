@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ManuallyManaged","Marker that indicates that a type is manually managed."],["RefCounted","Marker that indicates that a type is reference-counted."]],"trait":[["RefKind","Trait to parameterize over the memory management markers [`ManuallyManaged`] and [`RefCounted`]."]]});
