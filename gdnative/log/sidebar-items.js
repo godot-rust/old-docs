@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["error","Print an error to the Godot console."],["print","Print a message to the Godot console."],["warn","Print a warning to the Godot console."]],"struct":[["Site","Value representing a call site for errors and warnings. Can be constructed using the `godot_site!` macro, or manually."]]});

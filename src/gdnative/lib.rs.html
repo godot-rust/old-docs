@@ -153,7 +153,7 @@
 <span class="comment">// Items, which are #[doc(hidden)] in their original crate and re-exported with a wildcard, lose</span>
 <span class="comment">// their hidden status. Re-exporting them manually and hiding the wildcard solves this.</span>
 <span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">core_types</span>, <span class="ident">nativescript</span>, <span class="ident">object</span>};
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">core_types</span>, <span class="ident">log</span>, <span class="ident">nativescript</span>, <span class="ident">object</span>};
 
 <span class="doccomment">/// Collection of declarative `godot_*` macros, mostly for GDNative registration and output.</span>
 <span class="kw">pub</span> <span class="kw">mod</span> <span class="ident">macros</span> {
