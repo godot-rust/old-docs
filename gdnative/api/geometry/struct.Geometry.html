@@ -56,7 +56,7 @@ The operation may result in an outer polygon (boundary) and multiple inner polyg
 <p>Inflates or deflates <code>polygon</code> by <code>delta</code> units (pixels). If <code>delta</code> is positive, makes the polygon grow outward. If <code>delta</code> is negative, shrinks the polygon inward. Returns an array of polygons because inflating/deflating may result in multiple discrete polygons. Returns an empty array if <code>delta</code> is negative and the absolute value of it approximately exceeds the minimum bounding rectangle dimensions of the polygon.
 Each polygon’s vertices will be rounded as determined by <code>join_type</code>, see <a href="struct.PolyJoinType.html" title="PolyJoinType"><code>PolyJoinType</code></a>.
 The operation may result in an outer polygon (boundary) and inner polygon (hole) produced which could be distinguished by calling <a href="../struct.Geometry.html#method.is_polygon_clockwise" title="Self::is_polygon_clockwise"><code>is_polygon_clockwise</code></a>.
-<strong>Note:</strong> To translate the polygon’s vertices specifically, use the [<code>Transform2D.xform</code>][Transform2D::xform] method:</p>
+<strong>Note:</strong> To translate the polygon’s vertices specifically, use the <a href="../../core_types/struct.Transform2D.html#method.xform" title="Transform2D::xform"><code>Transform2D.xform</code></a> method:</p>
 <div class="example-wrap"><pre class="language-gdscript"><code>var polygon = PoolVector2Array([Vector2(0, 0), Vector2(100, 0), Vector2(100, 100), Vector2(0, 100)])
 var offset = Vector2(50, 50)
 polygon = Transform2D(0, offset).xform(polygon)
