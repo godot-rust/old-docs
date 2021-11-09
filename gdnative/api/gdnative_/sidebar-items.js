@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["GDNative","`core class GDNative` inherits `Reference` (reference counted)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ImmediateGeometry","`core class ImmediateGeometry` inherits `GeometryInstance` (unsafe)."]]});

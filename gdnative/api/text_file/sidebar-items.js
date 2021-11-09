@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["TextFile","`core class TextFile` inherits `Resource` (reference counted)."]]});

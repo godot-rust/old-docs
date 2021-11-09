@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompressionMode",""],["NetworkedMultiplayerENet","`core class NetworkedMultiplayerENet` inherits `NetworkedMultiplayerPeer` (reference counted)."]]});
+initSidebarItems({"struct":[["CompressionMode",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["BitMap","`core class BitMap` inherits `Resource` (reference counted)."]]});

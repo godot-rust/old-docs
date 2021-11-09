@@ -3,19 +3,19 @@ creates a tag using the name of the current module and the function by default.<
 <p>This attribute may also be used on non-exported functions. If the GDNative API isn’t
 initialized when the function is called, the data will be ignored silently.</p>
 <p>A custom tag can also be provided using the <code>tag</code> option.</p>
-<p>See the <code>gdnative::nativescript::profiling</code> for a lower-level API to the profiler with
+<p>See the <code>gdnative::export::profiler</code> for a lower-level API to the profiler with
 more control.</p>
 <h1 id="examples" class="section-header"><a href="#examples">Examples</a></h1>
 <div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">mod</span> <span class="ident">foo</span> {
     <span class="comment">// This function will show up as `foo/bar` under Script Functions.</span>
-    <span class="attribute">#[<span class="ident">gdnative::profiled</span>]</span>
+    <span class="attribute">#[<span class="ident">profiled</span>]</span>
     <span class="kw">fn</span> <span class="ident">bar</span>() {
         <span class="ident">std::thread::sleep</span>(<span class="ident">std::time::Duration::from_millis</span>(<span class="number">1</span>));
     }
 }</code></pre></div>
 
 <div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="comment">// This function will show up as `my_custom_tag` under Script Functions.</span>
-<span class="attribute">#[<span class="ident">gdnative::profiled</span>(<span class="ident">tag</span> <span class="op">=</span> <span class="string">&quot;my_custom_tag&quot;</span>)]</span>
+<span class="attribute">#[<span class="ident">profiled</span>(<span class="ident">tag</span> <span class="op">=</span> <span class="string">&quot;my_custom_tag&quot;</span>)]</span>
 <span class="kw">fn</span> <span class="ident">baz</span>() {
     <span class="ident">std::thread::sleep</span>(<span class="ident">std::time::Duration::from_millis</span>(<span class="number">1</span>));
 }</code></pre></div>

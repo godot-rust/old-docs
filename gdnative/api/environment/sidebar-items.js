@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BgMode",""],["DofBlurQuality",""],["Environment","`core class Environment` inherits `Resource` (reference counted)."],["GlowBlendMode",""],["SsaoBlur",""],["SsaoQuality",""],["ToneMapper",""]]});
+initSidebarItems({"struct":[["BgMode",""],["DofBlurQuality",""],["GlowBlendMode",""],["SsaoBlur",""],["SsaoQuality",""],["ToneMapper",""]]});

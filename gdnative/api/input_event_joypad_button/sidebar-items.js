@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["InputEventJoypadButton","`core class InputEventJoypadButton` inherits `InputEvent` (reference counted)."]]});

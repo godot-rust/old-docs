@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisibilityNotifier2D","`core class VisibilityNotifier2D` inherits `Node2D` (unsafe)."]]});

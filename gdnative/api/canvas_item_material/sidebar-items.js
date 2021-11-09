@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BlendMode",""],["CanvasItemMaterial","`core class CanvasItemMaterial` inherits `Material` (reference counted)."],["LightMode",""]]});
+initSidebarItems({"struct":[["BlendMode",""],["LightMode",""]]});

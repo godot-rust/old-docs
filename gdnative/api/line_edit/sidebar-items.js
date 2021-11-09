@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Align",""],["LineEdit","`core class LineEdit` inherits `Control` (unsafe)."],["MenuItems",""]]});
+initSidebarItems({"struct":[["Align",""],["MenuItems",""]]});

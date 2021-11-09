@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualScriptSceneTree","`core class VisualScriptSceneTree` inherits `VisualScriptNode` (reference counted)."]]});

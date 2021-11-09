@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["StyleBoxLine","`core class StyleBoxLine` inherits `StyleBox` (reference counted)."]]});

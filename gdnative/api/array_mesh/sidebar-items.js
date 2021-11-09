@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ArrayFormat",""],["ArrayMesh","`core class ArrayMesh` inherits `Mesh` (reference counted)."],["ArrayType",""]]});
+initSidebarItems({"struct":[["ArrayFormat",""],["ArrayType",""]]});

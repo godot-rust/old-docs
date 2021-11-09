@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorNavigationMeshGenerator","`tools class EditorNavigationMeshGenerator` inherits `Object` (unsafe)."]]});

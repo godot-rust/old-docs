@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BakeError",""],["BakeQuality",""],["BakedLightmap","`core class BakedLightmap` inherits `VisualInstance` (unsafe)."],["EnvironmentMode",""]]});
+initSidebarItems({"struct":[["BakeError",""],["BakeQuality",""],["EnvironmentMode",""]]});

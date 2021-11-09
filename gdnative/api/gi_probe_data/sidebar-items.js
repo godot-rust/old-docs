@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["GIProbeData","`core class GIProbeData` inherits `Resource` (reference counted)."]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DynamicFontData","`core class DynamicFontData` inherits `Resource` (reference counted)."],["Hinting",""]]});
+initSidebarItems({"struct":[["Hinting",""]]});

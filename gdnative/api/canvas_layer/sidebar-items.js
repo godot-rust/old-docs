@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CanvasLayer","`core class CanvasLayer` inherits `Node` (unsafe)."]]});

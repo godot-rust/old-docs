@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["YSort","`core class YSort` inherits `Node2D` (unsafe)."]]});

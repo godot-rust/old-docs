@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompressionMode",""],["File","`core class File` inherits `Reference` (reference counted)."],["ModeFlags",""]]});
+initSidebarItems({"struct":[["CompressionMode",""],["ModeFlags",""]]});

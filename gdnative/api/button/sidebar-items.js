@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Button","`core class Button` inherits `BaseButton` (unsafe)."],["TextAlign",""]]});
+initSidebarItems({"struct":[["TextAlign",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["StreamPeerGDNative","`core class StreamPeerGDNative` inherits `StreamPeer` (reference counted)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VSeparator","`core class VSeparator` inherits `Separator` (unsafe)."]]});

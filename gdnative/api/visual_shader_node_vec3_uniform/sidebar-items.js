@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualShaderNodeVec3Uniform","`core class VisualShaderNodeVec3Uniform` inherits `VisualShaderNodeUniform` (reference counted)."]]});

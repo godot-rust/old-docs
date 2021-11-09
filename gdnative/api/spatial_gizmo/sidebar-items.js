@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["SpatialGizmo","`core class SpatialGizmo` inherits `Reference` (reference counted)."]]});

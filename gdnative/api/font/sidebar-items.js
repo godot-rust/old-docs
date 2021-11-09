@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Font","`core class Font` inherits `Resource` (reference counted)."]]});

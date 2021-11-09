@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualShaderNodeVectorSmoothStep","`core class VisualShaderNodeVectorSmoothStep` inherits `VisualShaderNode` (reference counted)."]]});

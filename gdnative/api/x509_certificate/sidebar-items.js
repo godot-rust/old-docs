@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["X509Certificate","`core class X509Certificate` inherits `Resource` (reference counted)."]]});

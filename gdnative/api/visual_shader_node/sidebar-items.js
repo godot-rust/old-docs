@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PortType",""],["VisualShaderNode","`core class VisualShaderNode` inherits `Resource` (reference counted)."]]});
+initSidebarItems({"struct":[["PortType",""]]});

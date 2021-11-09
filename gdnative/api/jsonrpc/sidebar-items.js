@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ErrorCode",""],["JSONRPC","`core class JSONRPC` inherits `Object` (unsafe)."]]});
+initSidebarItems({"struct":[["ErrorCode",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Theme","`core class Theme` inherits `Resource` (reference counted)."]]});

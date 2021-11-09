@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Navigation","`core class Navigation` inherits `Spatial` (unsafe)."]]});

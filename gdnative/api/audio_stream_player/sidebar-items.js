@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AudioStreamPlayer","`core class AudioStreamPlayer` inherits `Node` (unsafe)."],["MixTarget",""]]});
+initSidebarItems({"struct":[["MixTarget",""]]});

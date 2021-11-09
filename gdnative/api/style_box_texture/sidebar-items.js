@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AxisStretchMode",""],["StyleBoxTexture","`core class StyleBoxTexture` inherits `StyleBox` (reference counted)."]]});
+initSidebarItems({"struct":[["AxisStretchMode",""]]});

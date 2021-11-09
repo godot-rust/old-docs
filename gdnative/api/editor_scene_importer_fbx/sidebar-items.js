@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorSceneImporterFBX","`tools class EditorSceneImporterFBX` inherits `EditorSceneImporter` (reference counted)."]]});

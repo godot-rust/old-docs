@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Reference","Base class of all reference-counted types. Inherits `Object`."]]});

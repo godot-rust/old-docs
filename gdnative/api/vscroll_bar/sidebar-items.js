@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VScrollBar","`core class VScrollBar` inherits `ScrollBar` (unsafe)."]]});

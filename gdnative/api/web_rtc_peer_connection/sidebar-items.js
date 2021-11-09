@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ConnectionState",""],["WebRTCPeerConnection","`core class WebRTCPeerConnection` inherits `Reference` (reference counted)."]]});
+initSidebarItems({"struct":[["ConnectionState",""]]});

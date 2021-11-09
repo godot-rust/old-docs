@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ResourceSaver","`core singleton class ResourceSaver` inherits `Object` (unsafe)."],["SaverFlags",""]]});
+initSidebarItems({"struct":[["SaverFlags",""]]});

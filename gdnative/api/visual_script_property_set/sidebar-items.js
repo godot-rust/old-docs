@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AssignOp",""],["CallMode",""],["VisualScriptPropertySet","`core class VisualScriptPropertySet` inherits `VisualScriptNode` (reference counted)."]]});
+initSidebarItems({"struct":[["AssignOp",""],["CallMode",""]]});

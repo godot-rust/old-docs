@@ -36,54 +36,44 @@
 <span id="36">36</span>
 <span id="37">37</span>
 <span id="38">38</span>
-<span id="39">39</span>
-<span id="40">40</span>
-<span id="41">41</span>
-<span id="42">42</span>
-<span id="43">43</span>
-</pre><pre class="rust"><code><span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::core_types</span>::{
-    <span class="self">self</span>, <span class="ident">Aabb</span>, <span class="ident">Basis</span>, <span class="ident">ByteArray</span>, <span class="ident">Color</span>, <span class="ident">ColorArray</span>, <span class="ident">Dictionary</span>, <span class="ident">Float32Array</span>, <span class="ident">GodotError</span>,
-    <span class="ident">GodotString</span>, <span class="ident">Int32Array</span>, <span class="ident">NodePath</span>, <span class="ident">Plane</span>, <span class="ident">Quat</span>, <span class="ident">Rect2</span>, <span class="ident">Rid</span>, <span class="ident">StringArray</span>, <span class="ident">StringName</span>, <span class="ident">Transform</span>,
-    <span class="ident">Transform2D</span>, <span class="ident">TypedArray</span>, <span class="ident">Variant</span>, <span class="ident">VariantArray</span>, <span class="ident">VariantDispatch</span>, <span class="ident">VariantOperator</span>, <span class="ident">VariantType</span>,
-    <span class="ident">Vector2</span>, <span class="ident">Vector2Array</span>, <span class="ident">Vector3</span>, <span class="ident">Vector3Array</span>,
-};
-
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::core_types</span>::{
-    <span class="ident">FromVariant</span>, <span class="ident">FromVariantError</span>, <span class="ident">OwnedToVariant</span>, <span class="ident">ToVariant</span>, <span class="ident">ToVariantEq</span>,
-};
-
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::object</span>::{
-    <span class="ident">memory</span>::{<span class="ident">ManuallyManaged</span>, <span class="ident">RefCounted</span>},
-    <span class="ident">ownership</span>::{<span class="ident">Shared</span>, <span class="ident">ThreadLocal</span>, <span class="ident">Unique</span>},
-    <span class="ident">AsArg</span>, <span class="ident">GodotObject</span>, <span class="ident">Instanciable</span>, <span class="ident">NewRef</span>, <span class="ident">Null</span>, <span class="ident">QueueFree</span>, <span class="ident">Ref</span>, <span class="ident">SubClass</span>, <span class="ident">TRef</span>,
-};
-
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::nativescript</span>::{
-    <span class="self">self</span>,
-    <span class="ident">export</span>::{
-        <span class="ident">ClassBuilder</span>, <span class="ident">ExportInfo</span>, <span class="ident">InitHandle</span>, <span class="ident">Method</span>, <span class="ident">MethodBuilder</span>, <span class="ident">PropertyUsage</span>, <span class="ident">Signal</span>,
-        <span class="ident">SignalArgument</span>,
-    },
-    <span class="ident">user_data</span>::{<span class="self">self</span>, <span class="ident">Aether</span>, <span class="ident">ArcData</span>, <span class="ident">LocalCellData</span>, <span class="ident">MutexData</span>, <span class="ident">RwLockData</span>},
-    <span class="ident">Instance</span>, <span class="ident">NativeClass</span>, <span class="ident">NativeClassMethods</span>, <span class="ident">RefInstance</span>,
-};
-
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{
-    <span class="ident">godot_dbg</span>, <span class="ident">godot_error</span>, <span class="ident">godot_gdnative_init</span>, <span class="ident">godot_gdnative_terminate</span>, <span class="ident">godot_init</span>,
-    <span class="ident">godot_nativescript_init</span>, <span class="ident">godot_print</span>, <span class="ident">godot_site</span>, <span class="ident">godot_warn</span>,
-};
-
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_derive</span>::<span class="kw-2">*</span>;
-
+</pre><pre class="rust"><code><span class="attribute">#[<span class="ident">cfg</span>(<span class="ident">feature</span> <span class="op">=</span> <span class="string">&quot;bindings&quot;</span>)]</span>
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_bindings::utils</span>::<span class="kw-2">*</span>;
 <span class="attribute">#[<span class="ident">cfg</span>(<span class="ident">feature</span> <span class="op">=</span> <span class="string">&quot;bindings&quot;</span>)]</span>
 <span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_bindings</span>::{
     <span class="ident">Button</span>, <span class="ident">CanvasItem</span>, <span class="ident">CanvasLayer</span>, <span class="ident">ColorRect</span>, <span class="ident">Control</span>, <span class="ident">Image</span>, <span class="ident">Input</span>, <span class="ident">InputEvent</span>, <span class="ident">InputEventKey</span>,
     <span class="ident">KinematicBody</span>, <span class="ident">KinematicBody2D</span>, <span class="ident">Label</span>, <span class="ident">Node</span>, <span class="ident">Node2D</span>, <span class="ident">Object</span>, <span class="ident">PackedScene</span>, <span class="ident">Reference</span>,
     <span class="ident">ResourceLoader</span>, <span class="ident">SceneTree</span>, <span class="ident">Shader</span>, <span class="ident">Spatial</span>, <span class="ident">Sprite</span>, <span class="ident">Texture</span>, <span class="ident">Timer</span>, <span class="ident">Tween</span>, <span class="ident">Viewport</span>,
 };
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::core_types</span>::{
+    <span class="ident">Aabb</span>, <span class="ident">Basis</span>, <span class="ident">ByteArray</span>, <span class="ident">Color</span>, <span class="ident">ColorArray</span>, <span class="ident">Dictionary</span>, <span class="ident">Float32Array</span>, <span class="ident">GodotError</span>, <span class="ident">GodotString</span>,
+    <span class="ident">Int32Array</span>, <span class="ident">NodePath</span>, <span class="ident">Plane</span>, <span class="ident">Quat</span>, <span class="ident">Rect2</span>, <span class="ident">Rid</span>, <span class="ident">StringArray</span>, <span class="ident">StringName</span>, <span class="ident">Transform</span>, <span class="ident">Transform2D</span>,
+    <span class="ident">TypedArray</span>, <span class="ident">Variant</span>, <span class="ident">VariantArray</span>, <span class="ident">VariantDispatch</span>, <span class="ident">VariantOperator</span>, <span class="ident">VariantType</span>, <span class="ident">Vector2</span>,
+    <span class="ident">Vector2Array</span>, <span class="ident">Vector3</span>, <span class="ident">Vector3Array</span>,
+};
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::core_types</span>::{
+    <span class="ident">FromVariant</span>, <span class="ident">FromVariantError</span>, <span class="ident">OwnedToVariant</span>, <span class="ident">ToVariant</span>, <span class="ident">ToVariantEq</span>,
+};
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::export</span>::{
+    <span class="ident">ClassBuilder</span>, <span class="ident">ExportInfo</span>, <span class="ident">Method</span>, <span class="ident">MethodBuilder</span>, <span class="ident">NativeClass</span>, <span class="ident">NativeClassMethods</span>,
+    <span class="ident">PropertyUsage</span>, <span class="ident">Signal</span>, <span class="ident">SignalArgument</span>,
+};
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::init::InitHandle</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::object</span>::{
+    <span class="ident">memory</span>::{<span class="ident">ManuallyManaged</span>, <span class="ident">RefCounted</span>},
+    <span class="ident">ownership</span>::{<span class="ident">Shared</span>, <span class="ident">ThreadLocal</span>, <span class="ident">Unique</span>},
+    <span class="ident">AsArg</span>, <span class="ident">GodotObject</span>, <span class="ident">Instance</span>, <span class="ident">Instanciable</span>, <span class="ident">NewRef</span>, <span class="ident">Null</span>, <span class="ident">QueueFree</span>, <span class="ident">Ref</span>, <span class="ident">RefInstance</span>,
+    <span class="ident">SubClass</span>, <span class="ident">TRef</span>,
+};
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">godot_dbg</span>, <span class="ident">godot_error</span>, <span class="ident">godot_init</span>, <span class="ident">godot_print</span>, <span class="ident">godot_warn</span>};
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_derive</span>::<span class="kw-2">*</span>;
 
-<span class="attribute">#[<span class="ident">cfg</span>(<span class="ident">feature</span> <span class="op">=</span> <span class="string">&quot;bindings&quot;</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_bindings::utils</span>::<span class="kw-2">*</span>;
+<span class="doccomment">/// User-data attributes from [`export::user_data`][crate::export::user_data] module.</span>
+<span class="kw">pub</span> <span class="kw">mod</span> <span class="ident">user_data</span> {
+    <span class="comment">// Re-export selected user_data types, but keep qualified due to rather generic names</span>
+    <span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::export::user_data</span>::{
+        <span class="ident">Aether</span>, <span class="ident">ArcData</span>, <span class="ident">LocalCellData</span>, <span class="ident">MutexData</span>, <span class="ident">RwLockData</span>,
+    };
+}
 </code></pre></div>
 </section><section id="search" class="content hidden"></section><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-search-index-js="../../search-index.js" data-search-js="../../search.js"></div>
     <script src="../../main.js"></script><script src="../../source-script.js"></script><script src="../../source-files.js"></script>

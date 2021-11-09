@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorSpinSlider","`tools class EditorSpinSlider` inherits `Range` (unsafe)."]]});

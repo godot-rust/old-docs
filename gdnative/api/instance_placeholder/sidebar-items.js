@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["InstancePlaceholder","`core class InstancePlaceholder` inherits `Node` (unsafe)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["InputEventKey","`core class InputEventKey` inherits `InputEventWithModifiers` (reference counted)."]]});

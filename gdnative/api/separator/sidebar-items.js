@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Separator","`core class Separator` inherits `Control` (unsafe)."]]});

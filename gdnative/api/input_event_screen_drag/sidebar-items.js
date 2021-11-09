@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["InputEventScreenDrag","`core class InputEventScreenDrag` inherits `InputEvent` (reference counted)."]]});

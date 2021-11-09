@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RegEx","`core class RegEx` inherits `Reference` (reference counted)."]]});

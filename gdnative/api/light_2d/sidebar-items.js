@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Light2D","`core class Light2D` inherits `Node2D` (unsafe)."],["Mode",""],["ShadowFilter",""]]});
+initSidebarItems({"struct":[["Mode",""],["ShadowFilter",""]]});

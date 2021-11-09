@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AnimatedTexture","`core class AnimatedTexture` inherits `Texture` (reference counted)."]]});

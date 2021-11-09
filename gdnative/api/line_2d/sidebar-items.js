@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Line2D","`core class Line2D` inherits `Node2D` (unsafe)."],["LineCapMode",""],["LineJointMode",""],["LineTextureMode",""]]});
+initSidebarItems({"struct":[["LineCapMode",""],["LineJointMode",""],["LineTextureMode",""]]});

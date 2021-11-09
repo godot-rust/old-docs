@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorInterface","`tools class EditorInterface` inherits `Node` (unsafe)."]]});

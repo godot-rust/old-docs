@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HalfOffset",""],["Mode",""],["TileMap","`core class TileMap` inherits `Node2D` (unsafe)."],["TileOrigin",""]]});
+initSidebarItems({"struct":[["HalfOffset",""],["Mode",""],["TileOrigin",""]]});

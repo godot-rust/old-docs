@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["NavigationMesh","`core class NavigationMesh` inherits `Resource` (reference counted)."]]});

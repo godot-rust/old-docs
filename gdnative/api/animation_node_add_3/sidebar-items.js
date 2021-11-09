@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AnimationNodeAdd3","`core class AnimationNodeAdd3` inherits `AnimationNode` (reference counted)."]]});

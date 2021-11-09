@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ConnectFlags",""],["Object","The base class of most Godot classes."]]});
+initSidebarItems({"struct":[["ConnectFlags",""]]});

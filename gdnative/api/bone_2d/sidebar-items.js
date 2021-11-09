@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Bone2D","`core class Bone2D` inherits `Node2D` (unsafe)."]]});

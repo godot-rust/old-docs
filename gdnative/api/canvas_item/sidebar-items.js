@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BlendMode",""],["CanvasItem","`core class CanvasItem` inherits `Node` (unsafe)."]]});
+initSidebarItems({"struct":[["BlendMode",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AnimationNodeStateMachine","`core class AnimationNodeStateMachine` inherits `AnimationRootNode` (reference counted)."]]});

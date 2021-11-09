@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Engine","`core singleton class Engine` inherits `Object` (unsafe)."]]});

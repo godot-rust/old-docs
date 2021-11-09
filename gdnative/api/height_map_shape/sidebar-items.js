@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["HeightMapShape","`core class HeightMapShape` inherits `Shape` (reference counted)."]]});

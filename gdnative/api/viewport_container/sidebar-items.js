@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ViewportContainer","`core class ViewportContainer` inherits `Container` (unsafe)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ResourceFormatLoader","`core class ResourceFormatLoader` inherits `Reference` (reference counted)."]]});

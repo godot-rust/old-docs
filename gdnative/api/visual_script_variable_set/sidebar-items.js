@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualScriptVariableSet","`core class VisualScriptVariableSet` inherits `VisualScriptNode` (reference counted)."]]});

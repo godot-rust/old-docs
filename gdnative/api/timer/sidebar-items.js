@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Timer","`core class Timer` inherits `Node` (unsafe)."],["TimerProcessMode",""]]});
+initSidebarItems({"struct":[["TimerProcessMode",""]]});

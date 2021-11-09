@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CapsuleShape2D","`core class CapsuleShape2D` inherits `Shape2D` (reference counted)."]]});

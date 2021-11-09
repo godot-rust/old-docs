@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Translation","`core class Translation` inherits `Resource` (reference counted)."]]});

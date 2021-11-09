@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RootMotionView","`core class RootMotionView` inherits `VisualInstance` (unsafe)."]]});

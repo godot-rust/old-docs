@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DrawOrder",""],["Particles2D","`core class Particles2D` inherits `Node2D` (unsafe)."]]});
+initSidebarItems({"struct":[["DrawOrder",""]]});

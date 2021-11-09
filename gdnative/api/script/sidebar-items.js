@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Script","`core class Script` inherits `Resource` (reference counted)."]]});

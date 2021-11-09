@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DispatchMode",""],["ProximityGroup","`core class ProximityGroup` inherits `Spatial` (unsafe)."]]});
+initSidebarItems({"struct":[["DispatchMode",""]]});

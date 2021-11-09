@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["MenuItems",""],["SearchFlags",""],["SearchResult",""],["TextEdit","`core class TextEdit` inherits `Control` (unsafe)."]]});
+initSidebarItems({"struct":[["MenuItems",""],["SearchFlags",""],["SearchResult",""]]});

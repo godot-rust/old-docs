@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["GradientTexture","`core class GradientTexture` inherits `Texture` (reference counted)."]]});

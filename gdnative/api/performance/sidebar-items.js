@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Monitor",""],["Performance","`core singleton class Performance` inherits `Object` (unsafe)."]]});
+initSidebarItems({"struct":[["Monitor",""]]});

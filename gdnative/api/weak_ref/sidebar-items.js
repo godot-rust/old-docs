@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["WeakRef","`core class WeakRef` inherits `Reference` (reference counted)."]]});

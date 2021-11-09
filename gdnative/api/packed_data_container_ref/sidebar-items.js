@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PackedDataContainerRef","`core class PackedDataContainerRef` inherits `Reference` (reference counted)."]]});

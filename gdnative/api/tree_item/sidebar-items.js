@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["TextAlign",""],["TreeCellMode",""],["TreeItem","`core class TreeItem` inherits `Object` (unsafe)."]]});
+initSidebarItems({"struct":[["TextAlign",""],["TreeCellMode",""]]});

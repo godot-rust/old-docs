@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["NodeType",""],["XMLParser","`core class XMLParser` inherits `Reference` (reference counted)."]]});
+initSidebarItems({"struct":[["NodeType",""]]});

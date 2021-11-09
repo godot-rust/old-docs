@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IconMode",""],["ItemList","`core class ItemList` inherits `Control` (unsafe)."],["SelectMode",""]]});
+initSidebarItems({"struct":[["IconMode",""],["SelectMode",""]]});

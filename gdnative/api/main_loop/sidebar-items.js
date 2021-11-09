@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["MainLoop","`core class MainLoop` inherits `Object` (unsafe)."]]});

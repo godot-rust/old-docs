@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["MeshLibrary","`core class MeshLibrary` inherits `Resource` (reference counted)."]]});

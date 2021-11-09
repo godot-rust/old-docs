@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualScriptFunctionState","`core class VisualScriptFunctionState` inherits `Reference` (reference counted)."]]});

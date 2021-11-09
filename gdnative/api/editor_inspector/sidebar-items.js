@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorInspector","`tools class EditorInspector` inherits `ScrollContainer` (unsafe)."]]});

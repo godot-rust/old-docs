@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Curve","`core class Curve` inherits `Resource` (reference counted)."],["TangentMode",""]]});
+initSidebarItems({"struct":[["TangentMode",""]]});

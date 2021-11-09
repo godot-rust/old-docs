@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["SpriteFrames","`core class SpriteFrames` inherits `Resource` (reference counted)."]]});

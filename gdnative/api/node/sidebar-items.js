@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DuplicateFlags",""],["Node","`core class Node` inherits `Object` (unsafe)."],["PauseMode",""]]});
+initSidebarItems({"struct":[["DuplicateFlags",""],["PauseMode",""]]});

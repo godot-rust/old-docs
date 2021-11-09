@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["InputEvent","`core class InputEvent` inherits `Resource` (reference counted)."]]});

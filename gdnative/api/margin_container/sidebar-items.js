@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["MarginContainer","`core class MarginContainer` inherits `Container` (unsafe)."]]});

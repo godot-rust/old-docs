@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ARVRController","`core class ARVRController` inherits `Spatial` (unsafe)."]]});

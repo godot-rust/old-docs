@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Function",""],["VisualShaderNodeTransformFunc","`core class VisualShaderNodeTransformFunc` inherits `VisualShaderNode` (reference counted)."]]});
+initSidebarItems({"struct":[["Function",""]]});

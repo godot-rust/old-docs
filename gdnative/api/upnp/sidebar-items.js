@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["UPNP","`core class UPNP` inherits `Reference` (reference counted)."],["UpnpResult",""]]});
+initSidebarItems({"struct":[["UpnpResult",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Operator",""],["VisualShaderNodeVectorOp","`core class VisualShaderNodeVectorOp` inherits `VisualShaderNode` (reference counted)."]]});
+initSidebarItems({"struct":[["Operator",""]]});

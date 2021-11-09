@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BuiltinFunc",""],["VisualScriptBuiltinFunc","`core class VisualScriptBuiltinFunc` inherits `VisualScriptNode` (reference counted)."]]});
+initSidebarItems({"struct":[["BuiltinFunc",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AudioEffectHighPassFilter","`core class AudioEffectHighPassFilter` inherits `AudioEffectFilter` (reference counted)."]]});

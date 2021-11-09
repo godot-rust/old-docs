@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CollisionShape","`core class CollisionShape` inherits `Spatial` (unsafe)."]]});

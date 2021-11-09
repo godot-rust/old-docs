@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorInspectorPlugin","`tools class EditorInspectorPlugin` inherits `Reference` (reference counted)."]]});

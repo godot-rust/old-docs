@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PhysicsBody","`core class PhysicsBody` inherits `CollisionObject` (unsafe)."]]});

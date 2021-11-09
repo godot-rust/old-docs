@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["BulletPhysicsServer","`core class BulletPhysicsServer` inherits `PhysicsServer` (unsafe)."]]});

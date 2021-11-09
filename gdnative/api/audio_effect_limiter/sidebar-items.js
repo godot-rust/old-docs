@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AudioEffectLimiter","`core class AudioEffectLimiter` inherits `AudioEffect` (reference counted)."]]});

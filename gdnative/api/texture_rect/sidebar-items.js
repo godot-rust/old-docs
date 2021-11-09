@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["StretchMode",""],["TextureRect","`core class TextureRect` inherits `Control` (unsafe)."]]});
+initSidebarItems({"struct":[["StretchMode",""]]});

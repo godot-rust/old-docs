@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PinJoint2D","`core class PinJoint2D` inherits `Joint2D` (unsafe)."]]});

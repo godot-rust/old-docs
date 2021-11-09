@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CSGCylinder","`core class CSGCylinder` inherits `CSGPrimitive` (unsafe)."]]});

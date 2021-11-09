@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Range","`core class Range` inherits `Control` (unsafe)."]]});

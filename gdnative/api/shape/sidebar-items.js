@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Shape","`core class Shape` inherits `Resource` (reference counted)."]]});

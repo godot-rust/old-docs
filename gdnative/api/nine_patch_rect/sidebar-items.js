@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AxisStretchMode",""],["NinePatchRect","`core class NinePatchRect` inherits `Control` (unsafe)."]]});
+initSidebarItems({"struct":[["AxisStretchMode",""]]});

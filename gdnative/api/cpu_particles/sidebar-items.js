@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CPUParticles","`core class CPUParticles` inherits `GeometryInstance` (unsafe)."],["DrawOrder",""],["EmissionShape",""],["Flags",""],["Parameter",""]]});
+initSidebarItems({"struct":[["DrawOrder",""],["EmissionShape",""],["Flags",""],["Parameter",""]]});

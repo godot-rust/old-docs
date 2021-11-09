@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["WebXRInterface","`core class WebXRInterface` inherits `ARVRInterface` (reference counted)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualScriptEditor","`tools singleton class VisualScriptEditor` inherits `Object` (unsafe)."]]});

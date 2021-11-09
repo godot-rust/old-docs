@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Align",""],["ItemType",""],["ListType",""],["RichTextLabel","`core class RichTextLabel` inherits `Control` (unsafe)."]]});
+initSidebarItems({"struct":[["Align",""],["ItemType",""],["ListType",""]]});

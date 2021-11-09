@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Skeleton","`core class Skeleton` inherits `Spatial` (unsafe)."]]});

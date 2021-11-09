@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["LightOccluder2D","`core class LightOccluder2D` inherits `Node2D` (unsafe)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["HSlider","`core class HSlider` inherits `Slider` (unsafe)."]]});

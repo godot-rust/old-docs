@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["KinematicCollision2D","`core class KinematicCollision2D` inherits `Reference` (reference counted)."]]});

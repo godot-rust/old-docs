@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["WebRTCMultiplayer","`core class WebRTCMultiplayer` inherits `NetworkedMultiplayerPeer` (reference counted)."]]});

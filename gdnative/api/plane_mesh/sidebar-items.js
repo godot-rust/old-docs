@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PlaneMesh","`core class PlaneMesh` inherits `PrimitiveMesh` (reference counted)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["SurfaceTool","`core class SurfaceTool` inherits `Reference` (reference counted)."]]});

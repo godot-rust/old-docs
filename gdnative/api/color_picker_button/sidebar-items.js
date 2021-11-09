@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ColorPickerButton","`core class ColorPickerButton` inherits `Button` (unsafe)."]]});

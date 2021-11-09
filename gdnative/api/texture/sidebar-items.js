@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Flags",""],["Texture","`core class Texture` inherits `Resource` (reference counted)."]]});
+initSidebarItems({"struct":[["Flags",""]]});

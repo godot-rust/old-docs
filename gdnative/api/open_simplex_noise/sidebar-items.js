@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["OpenSimplexNoise","`core class OpenSimplexNoise` inherits `Resource` (reference counted)."]]});

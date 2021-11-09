@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AnimationNode","`core class AnimationNode` inherits `Resource` (reference counted)."],["FilterAction",""]]});
+initSidebarItems({"struct":[["FilterAction",""]]});

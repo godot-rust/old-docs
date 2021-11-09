@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["BakedLightmapData","`core class BakedLightmapData` inherits `Resource` (reference counted)."]]});

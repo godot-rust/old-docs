@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RectangleShape2D","`core class RectangleShape2D` inherits `Shape2D` (reference counted)."]]});

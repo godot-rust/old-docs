@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Access",""],["DisplayMode",""],["EditorFileDialog","`tools class EditorFileDialog` inherits `ConfirmationDialog` (unsafe)."],["Mode",""]]});
+initSidebarItems({"struct":[["Access",""],["DisplayMode",""],["Mode",""]]});

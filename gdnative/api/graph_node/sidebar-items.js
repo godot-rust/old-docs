@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["GraphNode","`core class GraphNode` inherits `Container` (unsafe)."],["Overlay",""]]});
+initSidebarItems({"struct":[["Overlay",""]]});

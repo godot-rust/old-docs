@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RemoteTransform","`core class RemoteTransform` inherits `Spatial` (unsafe)."]]});

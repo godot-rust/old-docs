@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AcceptDialog","`core class AcceptDialog` inherits `WindowDialog` (unsafe)."]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["MergeMode",""],["UndoRedo","`core class UndoRedo` inherits `Object` (unsafe)."]]});
+initSidebarItems({"struct":[["MergeMode",""]]});

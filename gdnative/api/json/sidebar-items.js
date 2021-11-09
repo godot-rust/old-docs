@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["JSON","`core singleton class JSON` inherits `Object` (unsafe)."]]});

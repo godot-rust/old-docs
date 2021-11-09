@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorSettings","`tools class EditorSettings` inherits `Resource` (reference counted)."]]});

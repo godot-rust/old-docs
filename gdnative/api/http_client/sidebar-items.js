@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HTTPClient","`core class HTTPClient` inherits `Reference` (reference counted)."],["Method",""],["ResponseCode",""],["Status",""]]});
+initSidebarItems({"struct":[["Method",""],["ResponseCode",""],["Status",""]]});

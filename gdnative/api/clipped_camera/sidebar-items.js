@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ClippedCamera","`core class ClippedCamera` inherits `Camera` (unsafe)."],["ProcessMode",""]]});
+initSidebarItems({"struct":[["ProcessMode",""]]});

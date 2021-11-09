@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Flag",""],["HingeJoint","`core class HingeJoint` inherits `Joint` (unsafe)."],["Param",""]]});
+initSidebarItems({"struct":[["Flag",""],["Param",""]]});

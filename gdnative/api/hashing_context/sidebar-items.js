@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HashType",""],["HashingContext","`core class HashingContext` inherits `Reference` (reference counted)."]]});
+initSidebarItems({"struct":[["HashType",""]]});

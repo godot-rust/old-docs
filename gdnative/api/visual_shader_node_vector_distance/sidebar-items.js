@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualShaderNodeVectorDistance","`core class VisualShaderNodeVectorDistance` inherits `VisualShaderNode` (reference counted)."]]});

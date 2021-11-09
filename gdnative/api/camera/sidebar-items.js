@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Camera","`core class Camera` inherits `Spatial` (unsafe)."],["DopplerTracking",""],["KeepAspect",""],["Projection",""]]});
+initSidebarItems({"struct":[["DopplerTracking",""],["KeepAspect",""],["Projection",""]]});

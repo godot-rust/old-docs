@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualScriptEngineSingleton","`core class VisualScriptEngineSingleton` inherits `VisualScriptNode` (reference counted)."]]});

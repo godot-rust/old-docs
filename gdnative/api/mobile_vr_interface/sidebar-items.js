@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["MobileVRInterface","`core class MobileVRInterface` inherits `ARVRInterface` (reference counted)."]]});

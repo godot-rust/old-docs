@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorResourcePreview","`tools class EditorResourcePreview` inherits `Node` (unsafe)."]]});

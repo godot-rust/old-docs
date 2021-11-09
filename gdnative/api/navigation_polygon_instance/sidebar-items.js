@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["NavigationPolygonInstance","`core class NavigationPolygonInstance` inherits `Node2D` (unsafe)."]]});

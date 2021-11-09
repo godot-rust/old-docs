@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualShaderNodeGlobalExpression","`core class VisualShaderNodeGlobalExpression` inherits `VisualShaderNodeExpression` (reference counted)."]]});

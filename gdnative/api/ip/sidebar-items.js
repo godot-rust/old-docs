@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IP","`core singleton class IP` inherits `Object` (unsafe)."],["ResolverStatus",""],["Type",""]]});
+initSidebarItems({"struct":[["ResolverStatus",""],["Type",""]]});

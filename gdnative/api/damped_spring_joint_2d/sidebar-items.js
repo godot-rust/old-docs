@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["DampedSpringJoint2D","`core class DampedSpringJoint2D` inherits `Joint2D` (unsafe)."]]});

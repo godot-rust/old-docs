@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AudioStreamSample","`core class AudioStreamSample` inherits `AudioStream` (reference counted)."],["Format",""],["LoopMode",""]]});
+initSidebarItems({"struct":[["Format",""],["LoopMode",""]]});

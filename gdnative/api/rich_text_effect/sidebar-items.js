@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RichTextEffect","`core class RichTextEffect` inherits `Resource` (reference counted)."]]});

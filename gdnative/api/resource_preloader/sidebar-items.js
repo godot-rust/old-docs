@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ResourcePreloader","`core class ResourcePreloader` inherits `Node` (unsafe)."]]});

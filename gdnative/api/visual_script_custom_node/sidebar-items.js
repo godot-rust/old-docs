@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["StartMode",""],["VisualScriptCustomNode","`core class VisualScriptCustomNode` inherits `VisualScriptNode` (reference counted)."]]});
+initSidebarItems({"struct":[["StartMode",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AnimationTrackEditPlugin","`tools class AnimationTrackEditPlugin` inherits `Reference` (reference counted)."]]});

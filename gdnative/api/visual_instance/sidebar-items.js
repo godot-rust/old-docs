@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualInstance","`core class VisualInstance` inherits `Spatial` (unsafe)."]]});

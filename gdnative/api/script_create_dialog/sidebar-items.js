@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ScriptCreateDialog","`tools class ScriptCreateDialog` inherits `ConfirmationDialog` (unsafe)."]]});

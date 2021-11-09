@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Curve3D","`core class Curve3D` inherits `Resource` (reference counted)."]]});

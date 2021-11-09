@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ShaderMaterial","`core class ShaderMaterial` inherits `Material` (reference counted)."]]});

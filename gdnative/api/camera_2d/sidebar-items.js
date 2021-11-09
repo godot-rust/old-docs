@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AnchorMode",""],["Camera2D","`core class Camera2D` inherits `Node2D` (unsafe)."],["Camera2DProcessMode",""]]});
+initSidebarItems({"struct":[["AnchorMode",""],["Camera2DProcessMode",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Priority",""],["Thread","`core class Thread` inherits `Reference` (reference counted)."]]});
+initSidebarItems({"struct":[["Priority",""]]});

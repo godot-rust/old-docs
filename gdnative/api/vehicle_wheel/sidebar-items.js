@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VehicleWheel","`core class VehicleWheel` inherits `Spatial` (unsafe)."]]});

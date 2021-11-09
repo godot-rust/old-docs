@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CSGMesh","`core class CSGMesh` inherits `CSGPrimitive` (unsafe)."]]});

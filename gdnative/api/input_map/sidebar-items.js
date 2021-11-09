@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["InputMap","`core singleton class InputMap` inherits `Object` (unsafe)."]]});

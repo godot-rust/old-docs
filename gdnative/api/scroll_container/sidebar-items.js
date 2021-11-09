@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ScrollContainer","`core class ScrollContainer` inherits `Container` (unsafe)."]]});

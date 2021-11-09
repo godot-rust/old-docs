@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["TriangleMesh","`core class TriangleMesh` inherits `Reference` (reference counted)."]]});

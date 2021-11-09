@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualShaderNodeFresnel","`core class VisualShaderNodeFresnel` inherits `VisualShaderNode` (reference counted)."]]});

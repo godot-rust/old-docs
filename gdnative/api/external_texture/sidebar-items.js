@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ExternalTexture","`core class ExternalTexture` inherits `Texture` (reference counted)."]]});

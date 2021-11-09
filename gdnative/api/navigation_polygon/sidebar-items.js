@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["NavigationPolygon","`core class NavigationPolygon` inherits `Resource` (reference counted)."]]});

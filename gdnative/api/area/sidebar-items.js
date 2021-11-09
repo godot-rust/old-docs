@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Area","`core class Area` inherits `CollisionObject` (unsafe)."],["SpaceOverride",""]]});
+initSidebarItems({"struct":[["SpaceOverride",""]]});

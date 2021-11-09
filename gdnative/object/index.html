@@ -2,17 +2,20 @@
 <p>This module contains wrappers and helpers to interact with Godot objects.
 In Godot, classes stand in an inheritance relationship, with the root at <code>Object</code>.</p>
 <p>If you are looking for how to manage user-defined types (native scripts),
-check out the <a href="../nativescript/index.html" title="crate::nativescript"><code>nativescript</code></a> module.</p>
+check out the <a href="../export/index.html" title="crate::export"><code>export</code></a> module.</p>
 </div></details><h2 id="modules" class="section-header"><a href="#modules">Modules</a></h2>
 <div class="item-table"><div class="item-left module-item"><a class="mod" href="bounds/index.html" title="gdnative::object::bounds mod">bounds</a></div><div class="item-right docblock-short"><p>Various traits to verify memory policy, ownership policy or lifetime bounds</p>
 </div><div class="item-left module-item"><a class="mod" href="memory/index.html" title="gdnative::object::memory mod">memory</a></div><div class="item-right docblock-short"><p>Marker types to express the memory management method of Godot types.</p>
 </div><div class="item-left module-item"><a class="mod" href="ownership/index.html" title="gdnative::object::ownership mod">ownership</a></div><div class="item-right docblock-short"><p>Typestates to express ownership and thread safety of Godot types.</p>
 </div></div><h2 id="structs" class="section-header"><a href="#structs">Structs</a></h2>
-<div class="item-table"><div class="item-left module-item"><a class="struct" href="struct.Null.html" title="gdnative::object::Null struct">Null</a></div><div class="item-right docblock-short"><p>Represents an explicit null reference in method arguments. This works around type inference
+<div class="item-table"><div class="item-left module-item"><a class="struct" href="struct.Instance.html" title="gdnative::object::Instance struct">Instance</a></div><div class="item-right docblock-short"><p>A persistent reference to a GodotObject with a rust NativeClass attached.</p>
+</div><div class="item-left module-item"><a class="struct" href="struct.Null.html" title="gdnative::object::Null struct">Null</a></div><div class="item-right docblock-short"><p>Represents an explicit null reference in method arguments. This works around type inference
 issues with <code>Option</code>. You may create <code>Null</code>s with <code>Null::null</code> or <code>GodotObject::null</code>.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.RawObject.html" title="gdnative::object::RawObject struct">RawObject</a></div><div class="item-right docblock-short"><p>An opaque struct representing Godot objects. This should never be created on the stack.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.Ref.html" title="gdnative::object::Ref struct">Ref</a></div><div class="item-right docblock-short"><p>A polymorphic smart pointer for Godot objects whose behavior changes depending on the
 memory management method of the underlying type and the thread access status.</p>
+</div><div class="item-left module-item"><a class="struct" href="struct.RefInstance.html" title="gdnative::object::RefInstance struct">RefInstance</a></div><div class="item-right docblock-short"><p>A reference to a GodotObject with a rust NativeClass attached that is assumed safe during
+a certain lifetime.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.TRef.html" title="gdnative::object::TRef struct">TRef</a></div><div class="item-right docblock-short"><p>A temporary safe pointer to Godot objects that tracks thread access status. <code>TRef</code> can be
 coerced into bare references with <code>Deref</code>.</p>
 </div></div><h2 id="traits" class="section-header"><a href="#traits">Traits</a></h2>

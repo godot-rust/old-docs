@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HTTPRequest","`core class HTTPRequest` inherits `Node` (unsafe)."],["HttpRequestResult",""]]});
+initSidebarItems({"struct":[["HttpRequestResult",""]]});

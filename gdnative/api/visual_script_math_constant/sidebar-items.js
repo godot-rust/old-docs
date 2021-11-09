@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["MathConstant",""],["VisualScriptMathConstant","`core class VisualScriptMathConstant` inherits `VisualScriptNode` (reference counted)."]]});
+initSidebarItems({"struct":[["MathConstant",""]]});

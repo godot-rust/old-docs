@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RayCast2D","`core class RayCast2D` inherits `Node2D` (unsafe)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PhysicsShapeQueryResult","`core class PhysicsShapeQueryResult` inherits `Reference` (reference counted)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["EditorResourcePreviewGenerator","`tools class EditorResourcePreviewGenerator` inherits `Reference` (reference counted)."]]});

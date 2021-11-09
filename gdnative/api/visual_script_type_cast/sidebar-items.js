@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualScriptTypeCast","`core class VisualScriptTypeCast` inherits `VisualScriptNode` (reference counted)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AudioStreamGenerator","`core class AudioStreamGenerator` inherits `AudioStream` (reference counted)."]]});

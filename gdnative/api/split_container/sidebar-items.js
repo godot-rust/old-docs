@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DraggerVisibility",""],["SplitContainer","`core class SplitContainer` inherits `Container` (unsafe)."]]});
+initSidebarItems({"struct":[["DraggerVisibility",""]]});

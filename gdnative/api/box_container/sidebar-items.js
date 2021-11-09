@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AlignMode",""],["BoxContainer","`core class BoxContainer` inherits `Container` (unsafe)."]]});
+initSidebarItems({"struct":[["AlignMode",""]]});

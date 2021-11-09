@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ReflectionProbe","`core class ReflectionProbe` inherits `VisualInstance` (unsafe)."],["UpdateMode",""]]});
+initSidebarItems({"struct":[["UpdateMode",""]]});

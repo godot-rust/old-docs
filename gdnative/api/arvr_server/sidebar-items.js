@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ARVRServer","`core singleton class ARVRServer` inherits `Object` (unsafe)."],["RotationMode",""],["TrackerType",""]]});
+initSidebarItems({"struct":[["RotationMode",""],["TrackerType",""]]});

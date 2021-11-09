@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["GenEditState",""],["PackedScene","`core class PackedScene` inherits `Resource` (reference counted)."]]});
+initSidebarItems({"struct":[["GenEditState",""]]});

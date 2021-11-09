@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["MeshInstance","`core class MeshInstance` inherits `GeometryInstance` (unsafe)."]]});

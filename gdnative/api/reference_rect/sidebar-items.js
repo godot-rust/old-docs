@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ReferenceRect","`core class ReferenceRect` inherits `Control` (unsafe)."]]});

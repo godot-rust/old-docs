@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AutotileBindings",""],["BitmaskMode",""],["TileMode",""],["TileSet","`core class TileSet` inherits `Resource` (reference counted)."]]});
+initSidebarItems({"struct":[["AutotileBindings",""],["BitmaskMode",""],["TileMode",""]]});

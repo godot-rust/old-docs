@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Flags",""],["GeometryInstance","`core class GeometryInstance` inherits `VisualInstance` (unsafe)."],["LightmapScale",""],["ShadowCastingSetting",""]]});
+initSidebarItems({"struct":[["Flags",""],["LightmapScale",""],["ShadowCastingSetting",""]]});

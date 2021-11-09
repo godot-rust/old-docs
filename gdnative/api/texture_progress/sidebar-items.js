@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["FillMode",""],["TextureProgress","`core class TextureProgress` inherits `Range` (unsafe)."]]});
+initSidebarItems({"struct":[["FillMode",""]]});

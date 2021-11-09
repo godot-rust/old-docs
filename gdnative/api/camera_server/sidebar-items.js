@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CameraServer","`core singleton class CameraServer` inherits `Object` (unsafe)."],["FeedImage",""]]});
+initSidebarItems({"struct":[["FeedImage",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["JavaClass","`core class JavaClass` inherits `Reference` (reference counted)."]]});

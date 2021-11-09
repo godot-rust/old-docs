@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Align",""],["Label","`core class Label` inherits `Control` (unsafe)."],["VAlign",""]]});
+initSidebarItems({"struct":[["Align",""],["VAlign",""]]});

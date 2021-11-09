@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["VisualScriptGlobalConstant","`core class VisualScriptGlobalConstant` inherits `VisualScriptNode` (reference counted)."]]});

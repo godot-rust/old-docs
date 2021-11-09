@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BackBufferCopy","`core class BackBufferCopy` inherits `Node2D` (unsafe)."],["CopyMode",""]]});
+initSidebarItems({"struct":[["CopyMode",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PanoramaSky","`core class PanoramaSky` inherits `Sky` (reference counted)."]]});

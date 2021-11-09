@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["JavaClassWrapper","`core singleton class JavaClassWrapper` inherits `Object` (unsafe)."]]});

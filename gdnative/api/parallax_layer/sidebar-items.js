@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ParallaxLayer","`core class ParallaxLayer` inherits `Node2D` (unsafe)."]]});

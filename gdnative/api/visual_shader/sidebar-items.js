@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Type",""],["VisualShader","`core class VisualShader` inherits `Shader` (reference counted)."]]});
+initSidebarItems({"struct":[["Type",""]]});

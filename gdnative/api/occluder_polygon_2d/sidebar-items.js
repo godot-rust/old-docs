@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CullMode",""],["OccluderPolygon2D","`core class OccluderPolygon2D` inherits `Resource` (reference counted)."]]});
+initSidebarItems({"struct":[["CullMode",""]]});

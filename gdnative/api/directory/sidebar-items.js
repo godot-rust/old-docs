@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Directory","`core class Directory` inherits `Reference` (reference counted)."]]});

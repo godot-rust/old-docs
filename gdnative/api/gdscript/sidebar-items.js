@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["GDScript","`core class GDScript` inherits `Script` (reference counted)."]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ResourceInteractiveLoader","`core class ResourceInteractiveLoader` inherits `Reference` (reference counted)."]]});

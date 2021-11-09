@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AudioEffectRecord","`core class AudioEffectRecord` inherits `AudioEffect` (reference counted)."]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Enabler",""],["VisibilityEnabler","`core class VisibilityEnabler` inherits `VisibilityNotifier` (unsafe)."]]});
+initSidebarItems({"struct":[["Enabler",""]]});

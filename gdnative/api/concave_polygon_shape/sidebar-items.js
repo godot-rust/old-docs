@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ConcavePolygonShape","`core class ConcavePolygonShape` inherits `Shape` (reference counted)."]]});

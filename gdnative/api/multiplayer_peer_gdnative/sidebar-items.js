@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["MultiplayerPeerGDNative","`core class MultiplayerPeerGDNative` inherits `NetworkedMultiplayerPeer` (reference counted)."]]});

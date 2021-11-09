@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["EaseType",""],["TransitionType",""],["Tween","`core class Tween` inherits `Node` (unsafe)."],["TweenProcessMode",""]]});
+initSidebarItems({"struct":[["EaseType",""],["TransitionType",""],["TweenProcessMode",""]]});

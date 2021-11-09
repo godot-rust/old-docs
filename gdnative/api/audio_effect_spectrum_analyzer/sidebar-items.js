@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AudioEffectSpectrumAnalyzer","`core class AudioEffectSpectrumAnalyzer` inherits `AudioEffect` (reference counted)."],["FftSize",""]]});
+initSidebarItems({"struct":[["FftSize",""]]});

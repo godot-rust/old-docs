@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RemoteTransform2D","`core class RemoteTransform2D` inherits `Node2D` (unsafe)."]]});

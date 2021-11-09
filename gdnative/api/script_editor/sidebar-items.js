@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ScriptEditor","`tools class ScriptEditor` inherits `PanelContainer` (unsafe)."]]});

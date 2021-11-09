@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AnimatedSprite","`core class AnimatedSprite` inherits `Node2D` (unsafe)."]]});

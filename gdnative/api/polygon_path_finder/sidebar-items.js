@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PolygonPathFinder","`core class PolygonPathFinder` inherits `Resource` (reference counted)."]]});

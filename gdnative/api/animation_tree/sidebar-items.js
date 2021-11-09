@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AnimationProcessMode",""],["AnimationTree","`core class AnimationTree` inherits `Node` (unsafe)."]]});
+initSidebarItems({"struct":[["AnimationProcessMode",""]]});

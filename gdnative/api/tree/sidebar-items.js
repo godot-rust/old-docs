@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DropModeFlags",""],["SelectMode",""],["Tree","`core class Tree` inherits `Control` (unsafe)."]]});
+initSidebarItems({"struct":[["DropModeFlags",""],["SelectMode",""]]});

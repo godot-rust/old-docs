@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["SoftBody","`core class SoftBody` inherits `MeshInstance` (unsafe)."]]});

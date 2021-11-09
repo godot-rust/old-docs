@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["InputEventMagnifyGesture","`core class InputEventMagnifyGesture` inherits `InputEventGesture` (reference counted)."]]});

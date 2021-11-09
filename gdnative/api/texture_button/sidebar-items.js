@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["StretchMode",""],["TextureButton","`core class TextureButton` inherits `BaseButton` (unsafe)."]]});
+initSidebarItems({"struct":[["StretchMode",""]]});

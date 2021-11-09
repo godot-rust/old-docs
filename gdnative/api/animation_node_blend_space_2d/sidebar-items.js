@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AnimationNodeBlendSpace2D","`core class AnimationNodeBlendSpace2D` inherits `AnimationRootNode` (reference counted)."],["BlendMode",""]]});
+initSidebarItems({"struct":[["BlendMode",""]]});

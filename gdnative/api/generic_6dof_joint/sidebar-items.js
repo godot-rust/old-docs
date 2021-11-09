@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Flag",""],["Generic6DOFJoint","`core class Generic6DOFJoint` inherits `Joint` (unsafe)."],["Param",""]]});
+initSidebarItems({"struct":[["Flag",""],["Param",""]]});

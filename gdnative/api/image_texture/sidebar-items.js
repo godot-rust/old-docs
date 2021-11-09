@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ImageTexture","`core class ImageTexture` inherits `Texture` (reference counted)."],["Storage",""]]});
+initSidebarItems({"struct":[["Storage",""]]});
