@@ -82,7 +82,8 @@ Negative indices can be used to count from the right.</p>
 </div><div class="item-left module-item"><a class="enum" href="enum.VariantType.html" title="gdnative::prelude::VariantType enum">VariantType</a></div><div class="item-right docblock-short"></div></div><h2 id="traits" class="section-header"><a href="#traits">Traits</a></h2>
 <div class="item-table"><div class="item-left module-item"><a class="trait" href="trait.AsArg.html" title="gdnative::prelude::AsArg trait">AsArg</a></div><div class="item-right docblock-short"><p>Trait for safe conversion from Godot object references into API method arguments. This is
 a sealed trait with no public interface.</p>
-</div><div class="item-left module-item"><a class="trait" href="trait.FromVariant.html" title="gdnative::prelude::FromVariant trait">FromVariant</a></div><div class="item-right docblock-short"><p>Types that can be converted from a <code>Variant</code>.</p>
+</div><div class="item-left module-item"><a class="trait" href="trait.FromVariant.html" title="gdnative::prelude::FromVariant trait">FromVariant</a></div><div class="item-right docblock-short"><p>Types that can be converted from a <code>Variant</code>. Conversions are performed in Rust, and can be
+implemented for custom types.</p>
 </div><div class="item-left module-item"><a class="trait" href="trait.GodotObject.html" title="gdnative::prelude::GodotObject trait">GodotObject</a></div><div class="item-right docblock-short"><p>Trait for Godot API objects. This trait is sealed, and implemented for generated wrapper
 types.</p>
 </div><div class="item-left module-item"><a class="trait" href="trait.Instanciable.html" title="gdnative::prelude::Instanciable trait">Instanciable</a></div><div class="item-right docblock-short"><p>GodotObjects that have a zero argument constructor.</p>

@@ -6,6 +6,7 @@ used as return values. Notably, this includes <code>Unique</code> arrays, dictio
 to Godot objects and instances.</p>
 <p>This has a blanket implementation for all types that have <code>ToVariant</code>. As such, users
 should only derive or implement <code>OwnedToVariant</code> when <code>ToVariant</code> is not applicable.</p>
+<p>This trait is used for return types of exported methods.</p>
 <h2 id="deriving-ownedtovariant" class="section-header"><a href="#deriving-ownedtovariant">Deriving <code>OwnedToVariant</code></a></h2>
 <p>The derive macro behaves the same as <code>ToVariant</code>. See the documentation for the latter for
 a detailed explanation.</p>

@@ -32,7 +32,7 @@ registered.</p>
     <span class="kw">fn</span> <span class="ident">call</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="ident">this</span>: <span class="ident">TInstance</span><span class="op">&lt;</span><span class="lifetime">&#39;_</span>, <span class="ident">MyType</span>, <span class="ident">Shared</span><span class="op">&gt;</span>, <span class="ident">_args</span>: <span class="ident">Varargs</span><span class="op">&lt;</span><span class="lifetime">&#39;_</span><span class="op">&gt;</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">Variant</span> {
         <span class="ident">this</span>.<span class="ident">map</span>(<span class="op">|</span><span class="ident">obj</span>: <span class="kw-2">&amp;</span><span class="ident">MyType</span>, <span class="kw">_</span><span class="op">|</span> {
             <span class="kw">let</span> <span class="ident">result</span> <span class="op">=</span> <span class="ident">obj</span>.<span class="ident">my_method</span>();
-            <span class="ident">Variant::from_i64</span>(<span class="ident">result</span>)
+            <span class="ident">Variant::new</span>(<span class="ident">result</span>)
         }).<span class="ident">expect</span>(<span class="string">&quot;method call succeeds&quot;</span>)
     }
 }</code></pre></div>
