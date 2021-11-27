@@ -56,7 +56,8 @@ allocation or synchronization at runtime. Does not implement <code>MapMut</code>
 </div><div class="item-left module-item"><a class="struct" href="struct.ArcData.html" title="gdnative::export::user_data::ArcData struct">ArcData</a></div><div class="item-right docblock-short"><p>User-data wrapper encapsulating a <code>Arc&lt;T&gt;</code>. Does not implement <code>MapMut</code>.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.DefaultLockPolicy.html" title="gdnative::export::user_data::DefaultLockPolicy struct">DefaultLockPolicy</a></div><div class="item-right docblock-short"><p>Default lock policy that may change in future versions.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.LocalCellData.html" title="gdnative::export::user_data::LocalCellData struct">LocalCellData</a></div><div class="item-right docblock-short"><p>User-data wrapper analogous to a <code>Arc&lt;RefCell&lt;T&gt;&gt;</code>, that is restricted to the thread
-where it was originally created.</p>
+where it was originally created. The destructor of <code>T</code> is not guaranteed to be run if
+this is actually shared across multiple threads.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.MutexData.html" title="gdnative::export::user_data::MutexData struct">MutexData</a></div><div class="item-right docblock-short"><p>User-data wrapper encapsulating a <code>Arc&lt;Mutex&lt;T&gt;&gt;</code>.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.Once.html" title="gdnative::export::user_data::Once struct">Once</a></div><div class="item-right docblock-short"><p>Special user-data wrapper intended for objects that can only be used once. Only
 implements <code>MapOwned</code>.</p>

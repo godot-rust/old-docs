@@ -4,7 +4,8 @@
 allocation or synchronization at runtime. Does not implement <code>MapMut</code>.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.ArcData.html" title="gdnative::prelude::user_data::ArcData struct">ArcData</a></div><div class="item-right docblock-short"><p>User-data wrapper encapsulating a <code>Arc&lt;T&gt;</code>. Does not implement <code>MapMut</code>.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.LocalCellData.html" title="gdnative::prelude::user_data::LocalCellData struct">LocalCellData</a></div><div class="item-right docblock-short"><p>User-data wrapper analogous to a <code>Arc&lt;RefCell&lt;T&gt;&gt;</code>, that is restricted to the thread
-where it was originally created.</p>
+where it was originally created. The destructor of <code>T</code> is not guaranteed to be run if
+this is actually shared across multiple threads.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.MutexData.html" title="gdnative::prelude::user_data::MutexData struct">MutexData</a></div><div class="item-right docblock-short"><p>User-data wrapper encapsulating a <code>Arc&lt;Mutex&lt;T&gt;&gt;</code>.</p>
 </div><div class="item-left module-item"><a class="struct" href="struct.RwLockData.html" title="gdnative::prelude::user_data::RwLockData struct">RwLockData</a></div><div class="item-right docblock-short"><p>User-data wrapper encapsulating a <code>Arc&lt;RwLock&lt;T&gt;&gt;</code>.</p>
 </div></div></section><section id="search" class="content hidden"></section><div id="rustdoc-vars" data-root-path="../../../" data-current-crate="gdnative" data-search-index-js="../../../search-index.js" data-search-js="../../../search.js"></div>
