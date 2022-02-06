@@ -78,6 +78,19 @@ guaranteed to be called by the engine with the value.</p>
 <p>Call hook methods with <code>self</code> and <code>owner</code> before and/or after the generated property
 accessors.</p>
 <ul>
+<li><code>get</code> / <code>get_ref</code> / <code>set</code></li>
+</ul>
+<p>Configure getter/setter for property. All of them can accept a path to specify a custom
+property accessor. For example, <code>#[property(get = &quot;Self::my_getter&quot;)]</code> will use
+<code>Self::my_getter</code> as the getter.</p>
+<p>The difference of <code>get</code> and <code>get_ref</code> is that <code>get</code> will register the getter with
+<code>with_getter</code> function, which means your getter should return an owned value <code>T</code>, but
+<code>get_ref</code> use <code>with_ref_getter</code> to register getter. In this case, your custom getter
+should return a shared reference <code>&amp;T</code>.</p>
+<p>Situations with custom getters/setters and no backing fields require the use of the
+type [<code>Property&lt;T&gt;</code>][gdnative::export::Property]. Consult its documentation for
+a deeper elaboration of property exporting.</p>
+<ul>
 <li><code>no_editor</code></li>
 </ul>
 <p>Hides the property from the editor. Does not prevent it from being sent over network or saved in storage.</p>
