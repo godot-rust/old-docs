@@ -198,7 +198,7 @@
 <span class="comment">// Items, which are #[doc(hidden)] in their original crate and re-exported with a wildcard, lose</span>
 <span class="comment">// their hidden status. Re-exporting them manually and hiding the wildcard solves this.</span>
 <span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">core_types</span>, <span class="ident">export</span>, <span class="ident">init</span>, <span class="ident">log</span>, <span class="ident">object</span>, <span class="ident">profiler</span>};
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">core_types</span>, <span class="ident">export</span>, <span class="ident">globalscope</span>, <span class="ident">init</span>, <span class="ident">log</span>, <span class="ident">object</span>, <span class="ident">profiler</span>};
 
 <span class="comment">// Implementation details (e.g. used by macros).</span>
 <span class="comment">// However, do not re-export macros (on crate level), thus no wildcard</span>
@@ -220,5 +220,5 @@
 <span class="attribute">#[<span class="ident">cfg</span>(<span class="ident">feature</span> <span class="op">=</span> <span class="string">&quot;async&quot;</span>)]</span>
 <span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_async</span> <span class="kw">as</span> <span class="ident">tasks</span>;
 </code></pre></div>
-</section><section id="search" class="content hidden"></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.61.0 (fe5b13d68 2022-05-18)" ></div>
+</section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.62.0 (a8314ef7d 2022-06-27)" ></div>
 </body></html>
