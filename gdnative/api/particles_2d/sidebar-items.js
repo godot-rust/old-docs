@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DrawOrder",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["DrawOrder",""]]};

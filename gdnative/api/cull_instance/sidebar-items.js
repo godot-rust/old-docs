@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PortalMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["PortalMode",""]]};

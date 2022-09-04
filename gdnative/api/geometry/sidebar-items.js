@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PolyBooleanOperation",""],["PolyEndType",""],["PolyJoinType",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["PolyBooleanOperation",""],["PolyEndType",""],["PolyJoinType",""]]};

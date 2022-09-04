@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Source",""],["TextureType",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Source",""],["TextureType",""]]};

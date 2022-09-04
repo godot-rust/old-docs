@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["YieldMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["YieldMode",""]]};

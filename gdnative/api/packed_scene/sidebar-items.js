@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["GenEditState",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["GenEditState",""]]};

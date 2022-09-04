@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AnchorMode",""],["Camera2DProcessMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["AnchorMode",""],["Camera2DProcessMode",""]]};

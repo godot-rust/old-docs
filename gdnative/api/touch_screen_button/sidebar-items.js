@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["VisibilityMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["VisibilityMode",""]]};

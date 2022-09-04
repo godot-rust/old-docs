@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ArrayFormat",""],["ArrayType",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ArrayFormat",""],["ArrayType",""]]};

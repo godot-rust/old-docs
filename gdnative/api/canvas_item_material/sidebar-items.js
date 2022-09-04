@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BlendMode",""],["LightMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["BlendMode",""],["LightMode",""]]};

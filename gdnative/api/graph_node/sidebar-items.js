@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Overlay",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Overlay",""]]};

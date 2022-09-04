@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Type",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Type",""]]};

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["FilterAction",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["FilterAction",""]]};

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ConnectFlags",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ConnectFlags",""]]};

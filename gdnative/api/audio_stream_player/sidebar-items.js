@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["MixTarget",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["MixTarget",""]]};

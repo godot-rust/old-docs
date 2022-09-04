@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["FeedDataType",""],["FeedPosition",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["FeedDataType",""],["FeedPosition",""]]};

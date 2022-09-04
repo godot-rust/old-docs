@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Access",""],["DisplayMode",""],["Mode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Access",""],["DisplayMode",""],["Mode",""]]};

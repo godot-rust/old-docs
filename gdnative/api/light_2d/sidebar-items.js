@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Mode",""],["ShadowFilter",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Mode",""],["ShadowFilter",""]]};

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HandleType",""],["Month",""],["PowerState",""],["ScreenOrientation",""],["SystemDir",""],["VideoDriver",""],["Weekday",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["HandleType",""],["Month",""],["PowerState",""],["ScreenOrientation",""],["SystemDir",""],["VideoDriver",""],["Weekday",""]]};

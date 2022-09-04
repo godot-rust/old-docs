@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["MenuItems",""],["SearchFlags",""],["SearchResult",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["MenuItems",""],["SearchFlags",""],["SearchResult",""]]};

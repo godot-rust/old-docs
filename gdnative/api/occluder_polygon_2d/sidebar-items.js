@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CullMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["CullMode",""]]};

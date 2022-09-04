@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Mode",""],["PathIntervalType",""],["PathRotation",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Mode",""],["PathIntervalType",""],["PathRotation",""]]};

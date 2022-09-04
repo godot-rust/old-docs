@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AttenuationModel",""],["DopplerTracking",""],["OutOfRangeMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["AttenuationModel",""],["DopplerTracking",""],["OutOfRangeMode",""]]};

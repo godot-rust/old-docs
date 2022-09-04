@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompressionMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["CompressionMode",""]]};

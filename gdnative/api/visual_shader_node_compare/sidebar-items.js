@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ComparisonType",""],["Condition",""],["Function",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ComparisonType",""],["Condition",""],["Function",""]]};

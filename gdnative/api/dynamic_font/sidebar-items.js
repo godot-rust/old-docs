@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["SpacingType",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["SpacingType",""]]};

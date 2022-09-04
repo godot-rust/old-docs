@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ActionMode",""],["DrawMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ActionMode",""],["DrawMode",""]]};

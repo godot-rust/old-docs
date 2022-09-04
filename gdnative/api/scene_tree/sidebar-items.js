@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["GroupCallFlags",""],["StretchAspect",""],["StretchMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["GroupCallFlags",""],["StretchAspect",""],["StretchMode",""]]};

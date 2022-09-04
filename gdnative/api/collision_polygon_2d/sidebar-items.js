@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BuildMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["BuildMode",""]]};

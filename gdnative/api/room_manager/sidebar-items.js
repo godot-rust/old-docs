@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PvsMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["PvsMode",""]]};

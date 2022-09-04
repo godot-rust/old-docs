@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DraggerVisibility",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["DraggerVisibility",""]]};

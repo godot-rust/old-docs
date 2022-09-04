@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DropModeFlags",""],["SelectMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["DropModeFlags",""],["SelectMode",""]]};

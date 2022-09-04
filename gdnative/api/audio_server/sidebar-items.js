@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["SpeakerMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["SpeakerMode",""]]};

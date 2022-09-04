@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ChannelState",""],["WriteMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ChannelState",""],["WriteMode",""]]};

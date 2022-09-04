@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ImportOrder",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ImportOrder",""]]};

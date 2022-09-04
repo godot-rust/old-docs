@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ParsedGeometryType",""],["SamplePartitionType",""],["SourceGeometryMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ParsedGeometryType",""],["SamplePartitionType",""],["SourceGeometryMode",""]]};

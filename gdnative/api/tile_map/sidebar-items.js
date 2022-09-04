@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HalfOffset",""],["Mode",""],["TileOrigin",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["HalfOffset",""],["Mode",""],["TileOrigin",""]]};

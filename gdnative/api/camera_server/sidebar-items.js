@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["FeedImage",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["FeedImage",""]]};

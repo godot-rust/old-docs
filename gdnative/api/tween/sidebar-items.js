@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["EaseType",""],["TransitionType",""],["TweenProcessMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["EaseType",""],["TransitionType",""],["TweenProcessMode",""]]};

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BlendMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["BlendMode",""]]};

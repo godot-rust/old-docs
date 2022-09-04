@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["MagnitudeMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["MagnitudeMode",""]]};

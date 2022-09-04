@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["TrackerHand",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["TrackerHand",""]]};

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["RadianceSize",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["RadianceSize",""]]};

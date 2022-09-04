@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["TangentMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["TangentMode",""]]};

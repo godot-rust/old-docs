@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AnimationProcessMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["AnimationProcessMode",""]]};

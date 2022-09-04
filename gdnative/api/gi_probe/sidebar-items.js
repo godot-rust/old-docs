@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Subdiv",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Subdiv",""]]};

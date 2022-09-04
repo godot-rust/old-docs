@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ConnectionState",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ConnectionState",""]]};

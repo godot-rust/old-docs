@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["FilterDb",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["FilterDb",""]]};

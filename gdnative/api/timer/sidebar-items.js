@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["TimerProcessMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["TimerProcessMode",""]]};

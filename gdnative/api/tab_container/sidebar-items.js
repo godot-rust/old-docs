@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["TabAlign",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["TabAlign",""]]};

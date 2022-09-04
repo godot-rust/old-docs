@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Align",""],["MenuItems",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["Align",""],["MenuItems",""]]};

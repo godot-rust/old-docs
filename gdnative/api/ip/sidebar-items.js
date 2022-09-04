@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ResolverStatus",""],["Type",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ResolverStatus",""],["Type",""]]};

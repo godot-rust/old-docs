@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CallMode",""],["RpcCallMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["CallMode",""],["RpcCallMode",""]]};

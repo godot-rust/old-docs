@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ConnectionStatus",""],["TransferMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["ConnectionStatus",""],["TransferMode",""]]};

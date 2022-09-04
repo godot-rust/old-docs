@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IconMode",""],["SelectMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["IconMode",""],["SelectMode",""]]};

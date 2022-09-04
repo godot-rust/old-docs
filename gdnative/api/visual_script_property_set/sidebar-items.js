@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AssignOp",""],["CallMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["AssignOp",""],["CallMode",""]]};

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["SpaceOverride",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["SpaceOverride",""]]};

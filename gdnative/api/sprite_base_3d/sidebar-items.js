@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AlphaCutMode",""],["DrawFlags",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["AlphaCutMode",""],["DrawFlags",""]]};

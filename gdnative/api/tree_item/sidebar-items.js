@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["TextAlign",""],["TreeCellMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["TextAlign",""],["TreeCellMode",""]]};

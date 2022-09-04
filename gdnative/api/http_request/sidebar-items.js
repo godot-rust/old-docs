@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HttpRequestResult",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["HttpRequestResult",""]]};

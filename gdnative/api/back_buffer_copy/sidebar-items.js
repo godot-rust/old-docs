@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CopyMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["CopyMode",""]]};

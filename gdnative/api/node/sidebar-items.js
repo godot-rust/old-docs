@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DuplicateFlags",""],["PauseMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["DuplicateFlags",""],["PauseMode",""]]};

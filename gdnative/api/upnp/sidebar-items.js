@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["UpnpResult",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["UpnpResult",""]]};

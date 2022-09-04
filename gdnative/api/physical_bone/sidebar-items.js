@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["JointType",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["JointType",""]]};

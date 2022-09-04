@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DrawOrder",""],["EmissionShape",""],["Flags",""],["Parameter",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["DrawOrder",""],["EmissionShape",""],["Flags",""],["Parameter",""]]};

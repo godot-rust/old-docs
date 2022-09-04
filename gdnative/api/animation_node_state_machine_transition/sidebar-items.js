@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["SwitchMode",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["SwitchMode",""]]};

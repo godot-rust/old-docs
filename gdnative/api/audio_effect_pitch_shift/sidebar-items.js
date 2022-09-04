@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["FftSize",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["FftSize",""]]};
