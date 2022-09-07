@@ -114,11 +114,6 @@
 <span id="108">108</span>
 <span id="109">109</span>
 <span id="110">110</span>
-<span id="111">111</span>
-<span id="112">112</span>
-<span id="113">113</span>
-<span id="114">114</span>
-<span id="115">115</span>
 </pre><pre class="rust"><code><span class="doccomment">//! _**Note:** This documentation refers to the [latest GitHub version](https://github.com/godot-rust/godot-rust) and is subject to change._&lt;br&gt;</span>
 <span class="doccomment">//! _For stable releases, visit [docs.rs/gdnative](https://docs.rs/gdnative)._</span>
 <span class="doccomment">//! &lt;br&gt;&lt;br&gt;</span>
@@ -208,12 +203,7 @@
 <span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
 <span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">core_types</span>, <span class="ident">export</span>, <span class="ident">init</span>, <span class="ident">log</span>, <span class="ident">object</span>, <span class="ident">profiler</span>};
 
-<span class="kw">mod</span> <span class="ident">gdscript</span>; <span class="comment">// new methods from `@GDscript`, so far only `load`</span>
-<span class="kw">pub</span> <span class="kw">mod</span> <span class="ident">globalscope</span> {
-    <span class="kw">pub</span> <span class="kw">use</span> <span class="ident"><span class="kw">crate</span>::gdscript</span>::<span class="kw-2">*</span>;
-    <span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-    <span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::globalscope</span>::<span class="kw-2">*</span>;
-}
+<span class="kw">pub</span> <span class="kw">mod</span> <span class="ident">globalscope</span>;
 
 <span class="comment">// Implementation details (e.g. used by macros).</span>
 <span class="comment">// However, do not re-export macros (on crate level), thus no wildcard</span>

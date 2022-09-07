@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":[["autoload","Convenience method  to obtain a reference to an “auto-load” node, that is a child of the root node. Returns `None` if the node does not exist or is not of the correct type."]],"trait":[["NodeResolveExt",""]]};
+window.SIDEBAR_ITEMS = {"fn":[["autoload","Convenience method  to obtain a reference to an “auto-load” node, that is a child of the root node."]],"trait":[["NodeResolveExt",""]]};
