@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Makes it possible to use a type as a NativeScript."><meta name="keywords" content="rust, rustlang, rust-lang, NativeClass"><title>NativeClass in gdnative::prelude - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" type="text/css" href="../../normalize.css"><link rel="stylesheet" type="text/css" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../../ayu.css" disabled><link rel="stylesheet" type="text/css" href="../../dark.css" disabled><link rel="stylesheet" type="text/css" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc derive"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><div class="sidebar-elems"><h2 class="location"><a href="index.html">In gdnative::prelude</a></h2></div></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../../gdnative/index.html"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="main-heading"><h1 class="fqn"><span class="in-band">Derive Macro <a href="../index.html">gdnative</a>::<wbr><a href="index.html">prelude</a>::<wbr><a class="derive" href="#">NativeClass</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="../../clipboard.svg" width="19" height="18" alt="Copy item path"></button></span></h1><span class="out-of-band"><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">&#x2212;</span>]</a></span></div><div class="docblock item-decl"><pre class="rust derive"><code>#[derive(NativeClass)]
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Makes it possible to use a type as a NativeScript."><meta name="keywords" content="rust, rustlang, rust-lang, NativeClass"><title>NativeClass in gdnative::prelude - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" href="../../normalize.css"><link rel="stylesheet" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" href="../../ayu.css" disabled><link rel="stylesheet" href="../../dark.css" disabled><link rel="stylesheet" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc derive"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><div class="sidebar-elems"><h2 class="location"><a href="index.html">In gdnative::prelude</a></h2></div></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../../gdnative/index.html"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="main-heading"><h1 class="fqn"><span class="in-band">Derive Macro <a href="../index.html">gdnative</a>::<wbr><a href="index.html">prelude</a>::<wbr><a class="derive" href="#">NativeClass</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="../../clipboard.svg" width="19" height="18" alt="Copy item path"></button></span></h1><span class="out-of-band"><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">&#x2212;</span>]</a></span></div><div class="docblock item-decl"><pre class="rust derive"><code>#[derive(NativeClass)]
 {
     // Attributes available to this derive:
     #[inherit]
@@ -28,25 +28,25 @@ is used as a base class. This behavior is consistent with GDScript: omitting the
 <p>Use a custom function to register signals, properties or methods, in addition
 to the one generated by <code>#[methods]</code>:</p>
 
-<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use</span> <span class="ident">gdnative::prelude</span>::<span class="kw-2">*</span>;
-<span class="kw">use</span> <span class="ident">gdnative::export::hint</span>::{<span class="ident">RangeHint</span>, <span class="ident">FloatHint</span>};
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>gdnative::prelude::<span class="kw-2">*</span>;
+<span class="kw">use </span>gdnative::export::hint::{RangeHint, FloatHint};
 
-<span class="attribute">#[<span class="ident">derive</span>(<span class="ident">NativeClass</span>)]</span>
-<span class="attribute">#[<span class="ident">inherit</span>(<span class="ident">Reference</span>)]</span>
-<span class="attribute">#[<span class="ident">register_with</span>(<span class="ident"><span class="self">Self</span>::my_register_function</span>)]</span>
-<span class="kw">struct</span> <span class="ident">Foo</span>;
+<span class="attribute">#[derive(NativeClass)]
+#[inherit(Reference)]
+#[register_with(<span class="self">Self</span>::my_register_function)]
+</span><span class="kw">struct </span>Foo;
 
-<span class="attribute">#[<span class="ident">methods</span>]</span>
-<span class="kw">impl</span> <span class="ident">Foo</span> {
-    <span class="kw">fn</span> <span class="ident">new</span>(<span class="kw">_</span>: <span class="kw-2">&amp;</span><span class="ident">Reference</span>) -&gt; <span class="self">Self</span> {
-        <span class="self">Self</span> {}
+<span class="attribute">#[methods]
+</span><span class="kw">impl </span>Foo {
+    <span class="kw">fn </span>new(<span class="kw">_</span>: <span class="kw-2">&amp;</span>Reference) -&gt; <span class="self">Self </span>{
+        <span class="self">Self </span>{}
     }
-    <span class="kw">fn</span> <span class="ident">my_register_function</span>(<span class="ident">builder</span>: <span class="kw-2">&amp;</span><span class="ident">ClassBuilder</span><span class="op">&lt;</span><span class="ident">Foo</span><span class="op">&gt;</span>) {
-        <span class="ident">builder</span>.<span class="ident">signal</span>(<span class="string">&quot;my_sig&quot;</span>).<span class="ident">done</span>();
-        <span class="ident">builder</span>.<span class="ident">property</span>::<span class="op">&lt;</span><span class="ident">f32</span><span class="op">&gt;</span>(<span class="string">&quot;my_prop&quot;</span>)
-            .<span class="ident">with_getter</span>(<span class="op">|</span><span class="kw">_</span>, <span class="kw">_</span><span class="op">|</span> <span class="number">42.0</span>)
-            .<span class="ident">with_hint</span>(<span class="ident">FloatHint::Range</span>(<span class="ident">RangeHint::new</span>(<span class="number">0.0</span>, <span class="number">100.0</span>)))
-            .<span class="ident">done</span>();
+    <span class="kw">fn </span>my_register_function(builder: <span class="kw-2">&amp;</span>ClassBuilder&lt;Foo&gt;) {
+        builder.signal(<span class="string">&quot;my_sig&quot;</span>).done();
+        builder.property::&lt;f32&gt;(<span class="string">&quot;my_prop&quot;</span>)
+            .with_getter(|<span class="kw">_</span>, <span class="kw">_</span>| <span class="number">42.0</span>)
+            .with_hint(FloatHint::Range(RangeHint::new(<span class="number">0.0</span>, <span class="number">100.0</span>)))
+            .done();
     }
 }</code></pre></div>
 <h4 id="no_constructor"><a href="#no_constructor"><code>#[no_constructor]</code></a></h4>
@@ -109,17 +109,17 @@ Optional parameters must appear at the end of the parameter list.</li>
 or be a <code>Variant</code> type.</li>
 </ul>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="comment">// No access to base parameter</span>
-<span class="attribute">#[<span class="ident">method</span>]</span>
-<span class="kw">fn</span> <span class="ident">foo</span>(<span class="kw-2">&amp;</span><span class="self">self</span>);
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="comment">// No access to base parameter
+</span><span class="attribute">#[method]
+</span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>);
 
-<span class="comment">// Access base parameter as &amp;T</span>
-<span class="attribute">#[<span class="ident">method</span>]</span>
-<span class="kw">fn</span> <span class="ident">foo</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Reference</span>);
+<span class="comment">// Access base parameter as &amp;T
+</span><span class="attribute">#[method]
+</span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Reference);
 
-<span class="comment">// Access base parameter as TRef&lt;T&gt;</span>
-<span class="attribute">#[<span class="ident">method</span>]</span>
-<span class="kw">fn</span> <span class="ident">foo</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="ident">TRef</span><span class="op">&lt;</span><span class="ident">Reference</span><span class="op">&gt;</span>);</code></pre></div>
+<span class="comment">// Access base parameter as TRef&lt;T&gt;
+</span><span class="attribute">#[method]
+</span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: TRef&lt;Reference&gt;);</code></pre></div>
 <p><strong>Note</strong>: Marking a function with <code>#[method]</code> does not have any effect unless inside an <code>impl</code> block that has the <code>#[methods]</code> attribute.</p>
 <p>Possible arguments for this attribute are:</p>
 <ul>
@@ -149,10 +149,10 @@ Refer to <a href="https://docs.godotengine.org/en/stable/tutorials/networking/hi
 returning a reference (or in general, a type that dereferences to something that can be exported).</p>
 <p>For example:</p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="attribute">#[<span class="ident">method</span>(<span class="ident">deref_return</span>)]</span>
-<span class="kw">fn</span> <span class="ident">get_numbers</span>(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="ident">std::cell::Ref</span><span class="op">&lt;</span><span class="ident">Vec</span><span class="op">&lt;</span><span class="ident">i32</span><span class="op">&gt;</span><span class="op">&gt;</span> {
-   <span class="comment">// Assume self.cell is std::cell::RefCell&lt;Vec&lt;i32&gt;&gt;</span>
-   <span class="self">self</span>.<span class="ident">cell</span>.<span class="ident">borrow</span>()
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="attribute">#[method(deref_return)]
+</span><span class="kw">fn </span>get_numbers(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; std::cell::Ref&lt;Vec&lt;i32&gt;&gt; {
+   <span class="comment">// Assume self.cell is std::cell::RefCell&lt;Vec&lt;i32&gt;&gt;
+   </span><span class="self">self</span>.cell.borrow()
 }</code></pre></div>
 </li>
 </ul>
@@ -160,70 +160,70 @@ returning a reference (or in general, a type that dereferences to something that
 <p>This is a list of common Godot virtual functions that are automatically called via <a href="https://docs.godotengine.org/en/stable/classes/class_object.html#class-object-method-notification">notifications</a>.</p>
 <p>It is assumed that every method is exported via <code>#[method]</code> attribute. The parameter <code>#[base] base: &amp;Node</code> can be omitted if you don’t need it.</p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_ready</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_ready(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
 <p>Called when both the node and its children have entered the scene tree.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-ready">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_enter_tree</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_enter_tree(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
 <p>Called when the node enters the scene tree.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-enter-tree">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_exit_tree</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_exit_tree(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
 <p>Called when the node is removed from the scene tree.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-exit-tree">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_get_configuration_warning</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>) -&gt; <span class="ident">GodotString</span>;</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_get_configuration_warning(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node) -&gt; GodotString;</code></pre></div>
 <p>The string returned from this method is displayed as a warning in the Scene Dock if the script that overrides it is a tool script.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-get-configuration-warning">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_process</span>(<span class="kw-2">&amp;mut</span> <span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>, <span class="ident">delta</span>: <span class="ident">f64</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_process(<span class="kw-2">&amp;mut </span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node, delta: f64);</code></pre></div>
 <p>Called during processing step of the main loop.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-process">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_physics_process</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>, <span class="ident">delta</span>: <span class="ident">f64</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_physics_process(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node, delta: f64);</code></pre></div>
 <p>Called during physics update, with a fixed timestamp.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-physics-process">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_input</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>, <span class="ident">event</span>: <span class="ident">Ref</span><span class="op">&lt;</span><span class="ident">InputEvent</span><span class="op">&gt;</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputEvent&gt;);</code></pre></div>
 <p>Called when there is an input event.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_unhandled_input</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>, <span class="ident">event</span>: <span class="ident">Ref</span><span class="op">&lt;</span><span class="ident">InputEvent</span><span class="op">&gt;</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_unhandled_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputEvent&gt;);</code></pre></div>
 <p>Called when an <code>InputEvent</code> hasn’t been consumed by <code>_input()</code> or any GUI.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-unhandled-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_unhandled_key_input</span> (<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Node</span>, <span class="ident">event</span>: <span class="ident">Ref</span><span class="op">&lt;</span><span class="ident">InputKeyEvent</span><span class="op">&gt;</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_unhandled_key_input (<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputKeyEvent&gt;);</code></pre></div>
 <p>Called when an <code>InputEventKey</code> hasn’t been consumed by <code>_input()</code> or any GUI.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-unhandled-key-input">Godot docs</a> for more information.</em>
 <br><br></p>
 <h5 id="control-virtual-functions"><a href="#control-virtual-functions"><code>Control</code> virtual functions</a></h5>
 <p>This is a list of common Godot virtual functions that are automatically called via <a href="https://docs.godotengine.org/en/stable/classes/class_object.html#class-object-method-notification">notifications</a>.</p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_clips_input</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Control</span>) -&gt; <span class="ident">bool</span>;</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_clips_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Control) -&gt; bool;</code></pre></div>
 <p>Returns whether <code>_gui_input()</code> should not be called for children controls outside this control’s rectangle.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-clips-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_get_minimum_size</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Control</span>) -&gt; <span class="ident">Vector2</span>;</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_get_minimum_size(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Control) -&gt; Vector2;</code></pre></div>
 <p>Returns the minimum size for this control.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-get-minimum-size">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_gui_input</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Control</span>, <span class="ident">event</span>: <span class="ident">Ref</span><span class="op">&lt;</span><span class="ident">InputEvent</span><span class="op">&gt;</span>);</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_gui_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Control, event: Ref&lt;InputEvent&gt;);</code></pre></div>
 <p>Use this method to process and accept inputs on UI elements.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-gui-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class='information'><div class='tooltip ignore'>ⓘ</div></div><div class="example-wrap"><pre class="rust rust-example-rendered ignore"><code><span class="kw">fn</span> <span class="ident">_make_custom_tooltip</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[<span class="ident">base</span>]</span> <span class="ident">base</span>: <span class="kw-2">&amp;</span><span class="ident">Control</span>, <span class="ident">for_text</span>: <span class="ident">String</span>) -&gt; <span class="ident">Ref</span><span class="op">&lt;</span><span class="ident">Control</span><span class="op">&gt;</span>;</code></pre></div>
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_make_custom_tooltip(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: <span class="kw-2">&amp;</span>Control, for_text: String) -&gt; Ref&lt;Control&gt;;</code></pre></div>
 <p>Returns a <code>Control</code> node that should be used as a tooltip instead of the default one.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-make-custom-tooltip">Godot docs</a> for more information.</em>
 <br><br></p>
-</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.64.0 (a55dd71d5 2022-09-19)" ></div></body></html>
+</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.65.0 (897e37553 2022-11-02)" ></div></body></html>

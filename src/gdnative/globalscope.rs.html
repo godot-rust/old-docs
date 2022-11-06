@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `gdnative/src/globalscope.rs`."><meta name="keywords" content="rust, rustlang, rust-lang"><title>globalscope.rs - source</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" type="text/css" href="../../normalize.css"><link rel="stylesheet" type="text/css" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../../ayu.css" disabled><link rel="stylesheet" type="text/css" href="../../dark.css" disabled><link rel="stylesheet" type="text/css" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="../../source-script.js"></script><script defer src="../../source-files.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc source"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../../gdnative/index.html"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="example-wrap"><pre class="line-numbers"><span id="1">1</span>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `gdnative/src/globalscope.rs`."><meta name="keywords" content="rust, rustlang, rust-lang"><title>globalscope.rs - source</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" href="../../normalize.css"><link rel="stylesheet" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" href="../../ayu.css" disabled><link rel="stylesheet" href="../../dark.css" disabled><link rel="stylesheet" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="../../source-script.js"></script><script defer src="../../source-files.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc source"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../../gdnative/index.html"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="example-wrap"><pre class="line-numbers"><span id="1">1</span>
 <span id="2">2</span>
 <span id="3">3</span>
 <span id="4">4</span>
@@ -61,68 +61,68 @@
 <span id="61">61</span>
 <span id="62">62</span>
 <span id="63">63</span>
-</pre><pre class="rust"><code><span class="doccomment">//! Port of selected GDScript built-in functions.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! This module contains _some_ of the functions available in the [@GDScript] documentation.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! Reasons why a GDScript function may _not_ be ported to Rust include:</span>
-<span class="doccomment">//! * they are in the Rust standard library (`abs`, `sin`, `floor`, `assert`, ...)</span>
-<span class="doccomment">//! * they are already part of a godot-rust API</span>
-<span class="doccomment">//!   * `print` -&gt; [`godot_print!`][crate::log::godot_print!]</span>
-<span class="doccomment">//!   * `instance_from_id` -&gt; [`GodotObject::from_instance_id()`][crate::object::GodotObject::from_instance_id]</span>
-<span class="doccomment">//!   * ...</span>
-<span class="doccomment">//! * they have a private implementation, i.e. a Rust port would have different semantics</span>
-<span class="doccomment">//!   * `randi`, `randf` etc. -- users should use `rand` crate</span>
-<span class="doccomment">//!   * `str2var`, `bytes2var`, `hash` etc -- to be verified</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! This above list is not a definitive inclusion/exclusion criterion, just a rough guideline.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! Other noteworthy special cases:</span>
-<span class="doccomment">//! * GDScript `fmod` corresponds to Rust&#39;s `%` operator on `f32` (also known as the `Rem` trait).</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! [@GDScript]: https://docs.godotengine.org/en/stable/classes/class_@gdscript.html</span>
+</pre><pre class="rust"><code><span class="doccomment">//! Port of selected GDScript built-in functions.
+//!
+//! This module contains _some_ of the functions available in the [@GDScript] documentation.
+//!
+//! Reasons why a GDScript function may _not_ be ported to Rust include:
+//! * they are in the Rust standard library (`abs`, `sin`, `floor`, `assert`, ...)
+//! * they are already part of a godot-rust API
+//!   * `print` -&gt; [`godot_print!`][crate::log::godot_print!]
+//!   * `instance_from_id` -&gt; [`GodotObject::from_instance_id()`][crate::object::GodotObject::from_instance_id]
+//!   * ...
+//! * they have a private implementation, i.e. a Rust port would have different semantics
+//!   * `randi`, `randf` etc. -- users should use `rand` crate
+//!   * `str2var`, `bytes2var`, `hash` etc -- to be verified
+//!
+//! This above list is not a definitive inclusion/exclusion criterion, just a rough guideline.
+//!
+//! Other noteworthy special cases:
+//! * GDScript `fmod` corresponds to Rust&#39;s `%` operator on `f32` (also known as the `Rem` trait).
+//!
+//! [@GDScript]: https://docs.godotengine.org/en/stable/classes/class_@gdscript.html
 
-<span class="kw">use</span> <span class="ident"><span class="kw">crate</span>::api</span>::{<span class="ident">Resource</span>, <span class="ident">ResourceLoader</span>};
-<span class="kw">use</span> <span class="ident"><span class="kw">crate</span>::core_types::NodePath</span>;
-<span class="kw">use</span> <span class="ident"><span class="kw">crate</span>::object</span>::{<span class="ident">memory::RefCounted</span>, <span class="ident">GodotObject</span>, <span class="ident">Ref</span>, <span class="ident">SubClass</span>};
+</span><span class="kw">use </span><span class="kw">crate</span>::api::{Resource, ResourceLoader};
+<span class="kw">use </span><span class="kw">crate</span>::core_types::NodePath;
+<span class="kw">use </span><span class="kw">crate</span>::object::{memory::RefCounted, GodotObject, Ref, SubClass};
 
-<span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core::globalscope</span>::<span class="kw-2">*</span>;
+<span class="attribute">#[doc(inline)]
+</span><span class="kw">pub use </span>gdnative_core::globalscope::<span class="kw-2">*</span>;
 
-<span class="doccomment">/// Loads a resource from the filesystem located at `path`.</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// The resource is loaded on the method call (unless it&#39;s referenced already elsewhere, e.g. in another script or in the scene),</span>
-<span class="doccomment">/// which might cause slight delay, especially when loading scenes.</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// If the resource cannot be loaded, or is not of type `T` or inherited, this method returns `None`.</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// This method is a simplified version of [`ResourceLoader::load()`][crate::api::ResourceLoader::load],</span>
-<span class="doccomment">/// which can be used for more advanced scenarios.</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// # Note:</span>
-<span class="doccomment">/// Resource paths can be obtained by right-clicking on a resource in the Godot editor (_FileSystem_ dock) and choosing &quot;Copy Path&quot;,</span>
-<span class="doccomment">/// or by dragging the file from the _FileSystem_ dock into the script.</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// The path must be absolute (typically starting with `res://`), a local path will fail.</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// # Example:</span>
-<span class="doccomment">/// Loads a scene called `Main` located in the `path/to` subdirectory of the Godot project and caches it in a variable.</span>
-<span class="doccomment">/// The resource is directly stored with type `PackedScene`.</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// ```no_run</span>
-<span class="doccomment">/// use gdnative::prelude::*;</span>
-<span class="doccomment">///</span>
-<span class="doccomment">/// let scene = load::&lt;PackedScene&gt;(&quot;res://path/to/Main.tscn&quot;).unwrap();</span>
-<span class="doccomment">/// ```</span>
-<span class="attribute">#[<span class="ident">inline</span>]</span>
-<span class="kw">pub</span> <span class="kw">fn</span> <span class="ident">load</span><span class="op">&lt;</span><span class="ident">T</span><span class="op">&gt;</span>(<span class="ident">path</span>: <span class="kw">impl</span> <span class="ident">Into</span><span class="op">&lt;</span><span class="ident">NodePath</span><span class="op">&gt;</span>) -&gt; <span class="prelude-ty">Option</span><span class="op">&lt;</span><span class="ident">Ref</span><span class="op">&lt;</span><span class="ident">T</span><span class="op">&gt;</span><span class="op">&gt;</span>
-<span class="kw">where</span>
-    <span class="ident">T</span>: <span class="ident">SubClass</span><span class="op">&lt;</span><span class="ident">Resource</span><span class="op">&gt;</span> <span class="op">+</span> <span class="ident">GodotObject</span><span class="op">&lt;</span><span class="ident">Memory</span> <span class="op">=</span> <span class="ident">RefCounted</span><span class="op">&gt;</span>,
+<span class="doccomment">/// Loads a resource from the filesystem located at `path`.
+///
+/// The resource is loaded on the method call (unless it&#39;s referenced already elsewhere, e.g. in another script or in the scene),
+/// which might cause slight delay, especially when loading scenes.
+///
+/// If the resource cannot be loaded, or is not of type `T` or inherited, this method returns `None`.
+///
+/// This method is a simplified version of [`ResourceLoader::load()`][crate::api::ResourceLoader::load],
+/// which can be used for more advanced scenarios.
+///
+/// # Note:
+/// Resource paths can be obtained by right-clicking on a resource in the Godot editor (_FileSystem_ dock) and choosing &quot;Copy Path&quot;,
+/// or by dragging the file from the _FileSystem_ dock into the script.
+///
+/// The path must be absolute (typically starting with `res://`), a local path will fail.
+///
+/// # Example:
+/// Loads a scene called `Main` located in the `path/to` subdirectory of the Godot project and caches it in a variable.
+/// The resource is directly stored with type `PackedScene`.
+///
+/// ```no_run
+/// use gdnative::prelude::*;
+///
+/// let scene = load::&lt;PackedScene&gt;(&quot;res://path/to/Main.tscn&quot;).unwrap();
+/// ```
+</span><span class="attribute">#[inline]
+</span><span class="kw">pub fn </span>load&lt;T&gt;(path: <span class="kw">impl </span>Into&lt;NodePath&gt;) -&gt; <span class="prelude-ty">Option</span>&lt;Ref&lt;T&gt;&gt;
+<span class="kw">where
+    </span>T: SubClass&lt;Resource&gt; + GodotObject&lt;Memory = RefCounted&gt;,
 {
-    <span class="kw">let</span> <span class="ident">type_hint</span> <span class="op">=</span> <span class="ident">T::class_name</span>();
-    <span class="ident">ResourceLoader::godot_singleton</span>()
-        .<span class="ident">load</span>(<span class="ident">path</span>.<span class="ident">into</span>(), <span class="ident">type_hint</span>, <span class="bool-val">false</span>)
-        .<span class="ident">and_then</span>(<span class="op">|</span><span class="ident">res</span><span class="op">|</span> <span class="ident">res</span>.<span class="ident">cast</span>::<span class="op">&lt;</span><span class="ident">T</span><span class="op">&gt;</span>())
+    <span class="kw">let </span>type_hint = T::class_name();
+    ResourceLoader::godot_singleton()
+        .load(path.into(), type_hint, <span class="bool-val">false</span>)
+        .and_then(|res| res.cast::&lt;T&gt;())
 }
 </code></pre></div>
-</section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.64.0 (a55dd71d5 2022-09-19)" ></div></body></html>
+</section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.65.0 (897e37553 2022-11-02)" ></div></body></html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `gdnative/src/lib.rs`."><meta name="keywords" content="rust, rustlang, rust-lang"><title>lib.rs - source</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" type="text/css" href="../../normalize.css"><link rel="stylesheet" type="text/css" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../../ayu.css" disabled><link rel="stylesheet" type="text/css" href="../../dark.css" disabled><link rel="stylesheet" type="text/css" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="../../source-script.js"></script><script defer src="../../source-files.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc source"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../../gdnative/index.html"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="example-wrap"><pre class="line-numbers"><span id="1">1</span>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `gdnative/src/lib.rs`."><meta name="keywords" content="rust, rustlang, rust-lang"><title>lib.rs - source</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" href="../../normalize.css"><link rel="stylesheet" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" href="../../ayu.css" disabled><link rel="stylesheet" href="../../dark.css" disabled><link rel="stylesheet" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="../../source-script.js"></script><script defer src="../../source-files.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc source"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></div></a></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../../gdnative/index.html"><img class="rust-logo" src="../../rust-logo.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="example-wrap"><pre class="line-numbers"><span id="1">1</span>
 <span id="2">2</span>
 <span id="3">3</span>
 <span id="4">4</span>
@@ -108,115 +108,115 @@
 <span id="108">108</span>
 <span id="109">109</span>
 <span id="110">110</span>
-</pre><pre class="rust"><code><span class="doccomment">//! _**Note:** This documentation refers to the [latest GitHub version](https://github.com/godot-rust/godot-rust) and is subject to change._&lt;br&gt;</span>
-<span class="doccomment">//! _For stable releases, visit [docs.rs/gdnative](https://docs.rs/gdnative)._</span>
-<span class="doccomment">//! &lt;br&gt;&lt;br&gt;</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! # Rust bindings for the Godot game engine</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! This crate contains high-level wrappers around the Godot game engine&#39;s GDNative API.</span>
-<span class="doccomment">//! Some of the types were automatically generated from the engine&#39;s JSON API description,</span>
-<span class="doccomment">//! and some other types are hand made wrappers around the core C types.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! ## Core types</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! Wrappers for most core types expose safe Rust interfaces, and it&#39;s unnecessary</span>
-<span class="doccomment">//! to mind memory management most of the times. The exceptions are</span>
-<span class="doccomment">//! [`VariantArray`](core_types::VariantArray) and [`Dictionary`](core_types::Dictionary),</span>
-<span class="doccomment">//! internally reference-counted collections with _interior mutability_ in Rust parlance.</span>
-<span class="doccomment">//! These types are modelled using the _typestate_ pattern to enforce that the official</span>
-<span class="doccomment">//! [thread-safety guidelines][thread-safety]. For more information, read the type-level</span>
-<span class="doccomment">//! documentation for these types.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! Since it is easy to expect containers and other types to allocate a copy of their</span>
-<span class="doccomment">//! content when using the `Clone` trait, some types do not implement `Clone` and instead</span>
-<span class="doccomment">//! implement [`NewRef`](object::NewRef) which provides a `new_ref(&amp;self) -&gt; Self` method</span>
-<span class="doccomment">//! to create references to the same collection or object.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! ## Generated API types</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! The [`api`] module contains high-level wrappers for all the API types generated from a</span>
-<span class="doccomment">//! JSON description of the API. The generated types are tied to a specific version, typically</span>
-<span class="doccomment">//! the latest Godot 3.x release (at the time of the godot-rust release).</span>
-<span class="doccomment">//! If you want to use the bindings with another version of the engine, read the notes on</span>
-<span class="doccomment">//! the `custom-godot` feature flag below.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! ### Memory management</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! API types may be reference-counted or manually-managed. This is indicated by the</span>
-<span class="doccomment">//! `RefCounted` and `ManuallyManaged` marker traits.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! The API types can exist in three reference forms: bare, [`TRef`](object::TRef) and [`Ref`](object::Ref).</span>
-<span class="doccomment">//! Bare references to API types, like `&amp;&#39;a Node`, represent valid and safe references to Godot objects.</span>
-<span class="doccomment">//! As such, API methods may be called safely on them. `TRef` adds typestate tracking, which</span>
-<span class="doccomment">//! enable additional abilities like being able to be passed to the engine. `Ref`, or</span>
-<span class="doccomment">//! _persistent_ references, have `&#39;static` lifetime, but are not always safe to use. For more</span>
-<span class="doccomment">//! information on how to use persistent references safely, see the [`object`] module documentation</span>
-<span class="doccomment">//! or the corresponding [book chapter][gdnative-overview].</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! ## Feature flags</span>
-<span class="doccomment">//! All features are disabled by default.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! Functionality toggles:</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! * **`async`**&lt;br&gt;</span>
-<span class="doccomment">//!   Activates async functionality, see [`tasks`] module for details.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! * **`serde`**&lt;br&gt;</span>
-<span class="doccomment">//!   Enable for `serde` support of several core types. See also [`Variant`](core_types::Variant).</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! Bindings generation:</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! * **`custom-godot`**&lt;br&gt;</span>
-<span class="doccomment">//!   When active, tries to locate a Godot executable on your system, in this order:</span>
-<span class="doccomment">//!   1. If a `GODOT_BIN` environment variable is defined, it will interpret it as a path to the binary</span>
-<span class="doccomment">//!      (not directory).</span>
-<span class="doccomment">//!   2. An executable called `godot`, accessible in your system&#39;s PATH, is used.</span>
-<span class="doccomment">//!   3. If neither of the above is found, an error is generated.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//!   The symbols in [`api`] will be generated in a way compatible with that engine version.</span>
-<span class="doccomment">//!   This allows to use Godot versions older than the currently supported ones.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//!   See [Custom Godot builds][custom-godot] for detailed instructions.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! * **`formatted`**&lt;br&gt;</span>
-<span class="doccomment">//!   Enable if the generated binding source code should be human-readable and split</span>
-<span class="doccomment">//!   into multiple files. This can also help IDEs that struggle with a single huge file.</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//! [thread-safety]: https://docs.godotengine.org/en/stable/tutorials/threads/thread_safe_apis.html</span>
-<span class="doccomment">//! [gdnative-overview]: https://godot-rust.github.io/book/gdnative-overview.html</span>
-<span class="doccomment">//! [custom-godot]: https://godot-rust.github.io/book/advanced-guides/custom-godot.html</span>
-<span class="doccomment">//!</span>
-<span class="doccomment">//!</span>
+</pre><pre class="rust"><code><span class="doccomment">//! _**Note:** This documentation refers to the [latest GitHub version](https://github.com/godot-rust/godot-rust) and is subject to change._&lt;br&gt;
+//! _For stable releases, visit [docs.rs/gdnative](https://docs.rs/gdnative)._
+//! &lt;br&gt;&lt;br&gt;
+//!
+//! # Rust bindings for the Godot game engine
+//!
+//! This crate contains high-level wrappers around the Godot game engine&#39;s GDNative API.
+//! Some of the types were automatically generated from the engine&#39;s JSON API description,
+//! and some other types are hand made wrappers around the core C types.
+//!
+//! ## Core types
+//!
+//! Wrappers for most core types expose safe Rust interfaces, and it&#39;s unnecessary
+//! to mind memory management most of the times. The exceptions are
+//! [`VariantArray`](core_types::VariantArray) and [`Dictionary`](core_types::Dictionary),
+//! internally reference-counted collections with _interior mutability_ in Rust parlance.
+//! These types are modelled using the _typestate_ pattern to enforce that the official
+//! [thread-safety guidelines][thread-safety]. For more information, read the type-level
+//! documentation for these types.
+//!
+//! Since it is easy to expect containers and other types to allocate a copy of their
+//! content when using the `Clone` trait, some types do not implement `Clone` and instead
+//! implement [`NewRef`](object::NewRef) which provides a `new_ref(&amp;self) -&gt; Self` method
+//! to create references to the same collection or object.
+//!
+//! ## Generated API types
+//!
+//! The [`api`] module contains high-level wrappers for all the API types generated from a
+//! JSON description of the API. The generated types are tied to a specific version, typically
+//! the latest Godot 3.x release (at the time of the godot-rust release).
+//! If you want to use the bindings with another version of the engine, read the notes on
+//! the `custom-godot` feature flag below.
+//!
+//! ### Memory management
+//!
+//! API types may be reference-counted or manually-managed. This is indicated by the
+//! `RefCounted` and `ManuallyManaged` marker traits.
+//!
+//! The API types can exist in three reference forms: bare, [`TRef`](object::TRef) and [`Ref`](object::Ref).
+//! Bare references to API types, like `&amp;&#39;a Node`, represent valid and safe references to Godot objects.
+//! As such, API methods may be called safely on them. `TRef` adds typestate tracking, which
+//! enable additional abilities like being able to be passed to the engine. `Ref`, or
+//! _persistent_ references, have `&#39;static` lifetime, but are not always safe to use. For more
+//! information on how to use persistent references safely, see the [`object`] module documentation
+//! or the corresponding [book chapter][gdnative-overview].
+//!
+//! ## Feature flags
+//! All features are disabled by default.
+//!
+//! Functionality toggles:
+//!
+//! * **`async`**&lt;br&gt;
+//!   Activates async functionality, see [`tasks`] module for details.
+//!
+//! * **`serde`**&lt;br&gt;
+//!   Enable for `serde` support of several core types. See also [`Variant`](core_types::Variant).
+//!
+//! Bindings generation:
+//!
+//! * **`custom-godot`**&lt;br&gt;
+//!   When active, tries to locate a Godot executable on your system, in this order:
+//!   1. If a `GODOT_BIN` environment variable is defined, it will interpret it as a path to the binary
+//!      (not directory).
+//!   2. An executable called `godot`, accessible in your system&#39;s PATH, is used.
+//!   3. If neither of the above is found, an error is generated.
+//!
+//!   The symbols in [`api`] will be generated in a way compatible with that engine version.
+//!   This allows to use Godot versions older than the currently supported ones.
+//!
+//!   See [Custom Godot builds][custom-godot] for detailed instructions.
+//!
+//! * **`formatted`**&lt;br&gt;
+//!   Enable if the generated binding source code should be human-readable and split
+//!   into multiple files. This can also help IDEs that struggle with a single huge file.
+//!
+//! [thread-safety]: https://docs.godotengine.org/en/stable/tutorials/threads/thread_safe_apis.html
+//! [gdnative-overview]: https://godot-rust.github.io/book/gdnative-overview.html
+//! [custom-godot]: https://godot-rust.github.io/book/advanced-guides/custom-godot.html
+//!
+//!
 
-<span class="comment">// TODO: add logo using #![doc(html_logo_url = &quot;https://&lt;url&gt;&quot;)]</span>
+</span><span class="comment">// TODO: add logo using #![doc(html_logo_url = &quot;https://&lt;url&gt;&quot;)]
 
-<span class="comment">// Workaround (rustdoc 1.55):</span>
-<span class="comment">// Items, which are #[doc(hidden)] in their original crate and re-exported with a wildcard, lose</span>
-<span class="comment">// their hidden status. Re-exporting them manually and hiding the wildcard solves this.</span>
-<span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">core_types</span>, <span class="ident">export</span>, <span class="ident">init</span>, <span class="ident">log</span>, <span class="ident">object</span>, <span class="ident">profiler</span>};
+// Workaround (rustdoc 1.55):
+// Items, which are #[doc(hidden)] in their original crate and re-exported with a wildcard, lose
+// their hidden status. Re-exporting them manually and hiding the wildcard solves this.
+</span><span class="attribute">#[doc(inline)]
+</span><span class="kw">pub use </span>gdnative_core::{core_types, export, init, log, object, profiler};
 
-<span class="kw">pub</span> <span class="kw">mod</span> <span class="ident">globalscope</span>;
+<span class="kw">pub mod </span>globalscope;
 
-<span class="comment">// Implementation details (e.g. used by macros).</span>
-<span class="comment">// However, do not re-export macros (on crate level), thus no wildcard</span>
-<span class="attribute">#[<span class="ident">doc</span>(<span class="ident">hidden</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_core</span>::{<span class="ident">libc</span>, <span class="ident">sys</span>};
+<span class="comment">// Implementation details (e.g. used by macros).
+// However, do not re-export macros (on crate level), thus no wildcard
+</span><span class="attribute">#[doc(hidden)]
+</span><span class="kw">pub use </span>gdnative_core::{libc, sys};
 
-<span class="doccomment">/// Derive macros and macro attributes.</span>
-<span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_derive</span> <span class="kw">as</span> <span class="ident">derive</span>;
+<span class="doccomment">/// Derive macros and macro attributes.
+</span><span class="attribute">#[doc(inline)]
+</span><span class="kw">pub use </span>gdnative_derive <span class="kw">as </span>derive;
 
-<span class="doccomment">/// Curated re-exports of common items.</span>
-<span class="kw">pub</span> <span class="kw">mod</span> <span class="ident">prelude</span>;
+<span class="doccomment">/// Curated re-exports of common items.
+</span><span class="kw">pub mod </span>prelude;
 
-<span class="doccomment">/// Bindings for the Godot Class API.</span>
-<span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_bindings</span> <span class="kw">as</span> <span class="ident">api</span>;
+<span class="doccomment">/// Bindings for the Godot Class API.
+</span><span class="attribute">#[doc(inline)]
+</span><span class="kw">pub use </span>gdnative_bindings <span class="kw">as </span>api;
 
-<span class="attribute">#[<span class="ident">doc</span>(<span class="ident">inline</span>)]</span>
-<span class="attribute">#[<span class="ident">cfg</span>(<span class="ident">feature</span> <span class="op">=</span> <span class="string">&quot;async&quot;</span>)]</span>
-<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">gdnative_async</span> <span class="kw">as</span> <span class="ident">tasks</span>;
+<span class="attribute">#[doc(inline)]
+#[cfg(feature = <span class="string">&quot;async&quot;</span>)]
+</span><span class="kw">pub use </span>gdnative_async <span class="kw">as </span>tasks;
 </code></pre></div>
-</section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.64.0 (a55dd71d5 2022-09-19)" ></div></body></html>
+</section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.65.0 (897e37553 2022-11-02)" ></div></body></html>
