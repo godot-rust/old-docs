@@ -108,6 +108,16 @@
 <span id="108">108</span>
 <span id="109">109</span>
 <span id="110">110</span>
+<span id="111">111</span>
+<span id="112">112</span>
+<span id="113">113</span>
+<span id="114">114</span>
+<span id="115">115</span>
+<span id="116">116</span>
+<span id="117">117</span>
+<span id="118">118</span>
+<span id="119">119</span>
+<span id="120">120</span>
 </pre><pre class="rust"><code><span class="doccomment">//! _**Note:** This documentation refers to the [latest GitHub version](https://github.com/godot-rust/godot-rust) and is subject to change._&lt;br&gt;
 //! _For stable releases, visit [docs.rs/gdnative](https://docs.rs/gdnative)._
 //! &lt;br&gt;&lt;br&gt;
@@ -182,6 +192,16 @@
 //! * **`formatted`**&lt;br&gt;
 //!   Enable if the generated binding source code should be human-readable and split
 //!   into multiple files. This can also help IDEs that struggle with a single huge file.
+//!
+//! * **`ptrcall`**&lt;br&gt;
+//!   Enables the `ptrcall` convention for calling Godot API methods. This increases performance, at the
+//!   cost of forward binary compatibility with the engine. Binaries built with `ptrcall` enabled
+//!   **may exhibit undefined behavior** when loaded by a different version of Godot, even when there are
+//!   no breaking API changes as far as GDScript is concerned. Notably, the addition of new default
+//!   parameters breaks any code using `ptrcall`.
+//!
+//!   Cargo features are additive, and as such, it&#39;s only necessary to enable this feature for the final
+//!   `cdylib` crates, whenever desired.
 //!
 //! [thread-safety]: https://docs.godotengine.org/en/stable/tutorials/threads/thread_safe_apis.html
 //! [gdnative-overview]: https://godot-rust.github.io/book/gdnative-overview.html
