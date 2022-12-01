@@ -117,7 +117,6 @@
 <span id="117">117</span>
 <span id="118">118</span>
 <span id="119">119</span>
-<span id="120">120</span>
 </pre><pre class="rust"><code><span class="doccomment">//! _**Note:** This documentation refers to the [latest GitHub version](https://github.com/godot-rust/godot-rust) and is subject to change._&lt;br&gt;
 //! _For stable releases, visit [docs.rs/gdnative](https://docs.rs/gdnative)._
 //! &lt;br&gt;&lt;br&gt;
@@ -215,7 +214,10 @@
 // Items, which are #[doc(hidden)] in their original crate and re-exported with a wildcard, lose
 // their hidden status. Re-exporting them manually and hiding the wildcard solves this.
 </span><span class="attribute">#[doc(inline)]
-</span><span class="kw">pub use </span>gdnative_core::{core_types, export, init, log, object, profiler};
+</span><span class="kw">pub use </span>gdnative_core::{
+    core_types, derive, export, godot_dbg, godot_error, godot_print, godot_site, init, log, object,
+    profiler,
+};
 
 <span class="kw">pub mod </span>globalscope;
 
@@ -223,10 +225,6 @@
 // However, do not re-export macros (on crate level), thus no wildcard
 </span><span class="attribute">#[doc(hidden)]
 </span><span class="kw">pub use </span>gdnative_core::{libc, sys};
-
-<span class="doccomment">/// Derive macros and macro attributes.
-</span><span class="attribute">#[doc(inline)]
-</span><span class="kw">pub use </span>gdnative_derive <span class="kw">as </span>derive;
 
 <span class="doccomment">/// Curated re-exports of common items.
 </span><span class="kw">pub mod </span>prelude;

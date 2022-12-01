@@ -91,16 +91,21 @@ a deeper elaboration of property exporting.</p>
 <h4 id="methods"><a href="#methods"><code>#[methods]</code></a></h4>
 <p>Adds the necessary information to a an <code>impl</code> block to register the properties and methods with Godot.</p>
 <p><strong>Important</strong>: This needs to be added to one and only one <code>impl</code> block for a given <code>NativeClass</code>.</p>
-<p>For additional details about how <code>#[methods]</code> expands, please refer to <a href="../derive/attr.methods.html">gdnative::methods</a></p>
 <h4 id="method"><a href="#method"><code>#[method]</code></a></h4>
 <p>Registers the attributed function signature to be used by Godot.</p>
 <p>This attribute was formerly called <code>#[export]</code>, but is not directly related to the concept of
 <a href="https://docs.godotengine.org/en/stable/tutorials/export/exporting_basics.html">exporting</a> in GDScript.</p>
 <p>A valid function signature must have:</p>
 <ul>
-<li><code>&amp;self</code> or <code>&amp;mut self</code> as its first parameter</li>
-<li>Optionally, <code>&amp;T</code> or <code>TRef&lt;T&gt;</code> where T refers to the type declared in <code>#[inherit(T)]</code> attribute as it’s second parameter;
-this is typically called the <em>base</em>. The parameter must be attributed with <code>#[base]</code>.</li>
+<li><code>self</code>, <code>&amp;self</code> or <code>&amp;mut self</code> as its first parameter, if applicable.</li>
+<li>Up of one of each of the following special arguments, in any order, denoted by the attributes:
+<ul>
+<li><code>#[base]</code> - A reference to the base/owner object. This may be <code>&amp;T</code> or <code>TRef&lt;T&gt;</code>m where <code>T</code> refers to
+the type declared in <code>#[inherit(T)]</code> attribute for the <code>NativeClass</code> type.</li>
+<li><code>#[async_ctx]</code> - The <a href="gdnative::tasks::Context">async context</a>, for async methods. See the <code>async</code> argument
+below.</li>
+</ul>
+</li>
 <li>Any number of required parameters, which must have the type <code>Variant</code> or must implement the <code>FromVariant</code> trait.
 <code>FromVariant</code> is implemented for most common types.</li>
 <li>Any number of optional parameters annotated with <code>#[opt]</code>. Same rules as for required parameters apply.
@@ -109,7 +114,11 @@ Optional parameters must appear at the end of the parameter list.</li>
 or be a <code>Variant</code> type.</li>
 </ul>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="comment">// No access to base parameter
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="comment">// Associated function
+</span><span class="attribute">#[method]
+</span><span class="kw">fn </span>foo();
+
+<span class="comment">// No access to base parameter
 </span><span class="attribute">#[method]
 </span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>);
 
@@ -119,7 +128,21 @@ or be a <code>Variant</code> type.</li>
 
 <span class="comment">// Access base parameter as TRef&lt;T&gt;
 </span><span class="attribute">#[method]
-</span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: TRef&lt;Reference&gt;);</code></pre></div>
+</span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: TRef&lt;Reference&gt;);
+
+<span class="comment">// Access only the async context. Both variations are valid.
+</span><span class="attribute">#[method]
+</span><span class="kw">async fn </span>foo(<span class="attribute">#[async_ctx] </span>ctx: Arc&lt;Context&gt;);
+<span class="attribute">#[method(<span class="kw">async</span>)]
+</span><span class="kw">fn </span>foo(<span class="attribute">#[async_ctx] </span>ctx: Arc&lt;Context&gt;) -&gt; <span class="kw">impl </span>Future&lt;Output = ()&gt; + <span class="lifetime">&#39;static</span>;
+
+<span class="comment">// Access the base parameter as TRef&lt;T&gt;, and the async context. Both variations are valid.
+// Note the absence of `async fn`s here: this is due to a current limitation in Rust&#39;s lifetime elision rules.
+// See the `async` attribute argument down below for more details.
+</span><span class="attribute">#[method(<span class="kw">async</span>)]
+</span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>base: TRef&lt;Reference&gt;, <span class="attribute">#[async_ctx] </span>ctx: Arc&lt;Context&gt;) -&gt; <span class="kw">impl </span>Future&lt;Output = ()&gt; + <span class="lifetime">&#39;static</span>;
+<span class="attribute">#[method(<span class="kw">async</span>)]
+</span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[async_ctx] </span>ctx: Arc&lt;Context&gt;, <span class="attribute">#[base] </span>base: TRef&lt;Reference&gt;) -&gt; <span class="kw">impl </span>Future&lt;Output = ()&gt; + <span class="lifetime">&#39;static</span>;</code></pre></div>
 <p><strong>Note</strong>: Marking a function with <code>#[method]</code> does not have any effect unless inside an <code>impl</code> block that has the <code>#[methods]</code> attribute.</p>
 <p>Possible arguments for this attribute are:</p>
 <ul>
@@ -154,6 +177,27 @@ returning a reference (or in general, a type that dereferences to something that
    <span class="comment">// Assume self.cell is std::cell::RefCell&lt;Vec&lt;i32&gt;&gt;
    </span><span class="self">self</span>.cell.borrow()
 }</code></pre></div>
+</li>
+<li>
+<p><code>async</code></p>
+<p>Marks the function as async. This is used for functions that aren’t <code>async</code> themselves, but return <code>Future</code>s instead.
+This is especially useful for working around Rust’s lifetime elision rules, which put the lifetime of <code>&amp;self</code> into the
+return value for <code>async fn</code>s. The <code>impl Future</code> syntax instead allows one to explicitly specify a <code>'static</code> lifetime,
+as required by the async runtime:</p>
+
+<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="comment">// This will NOT compile: Rust assumes that any futures returned by an `async fn` may only live as long as each of its
+// arguments, and there is no way to tell it otherwise. As a result, it will emit some cryptic complaints about lifetime.
+</span><span class="attribute">#[method]
+</span><span class="kw">async fn </span>answer(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; i32 {
+   <span class="number">42
+</span>}
+
+<span class="comment">// This, however, compiles, thanks to the explicit `&#39;static` lifetime in the return signature.
+</span><span class="attribute">#[method(<span class="kw">async</span>)]
+</span><span class="kw">fn </span>answer(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="kw">impl </span>Future&lt;Output = i32&gt; + <span class="lifetime">&#39;static </span>{
+   <span class="kw">async </span>{ <span class="number">42 </span>}
+}
+</code></pre></div>
 </li>
 </ul>
 <h5 id="node-virtual-functions"><a href="#node-virtual-functions"><code>Node</code> virtual functions</a></h5>
