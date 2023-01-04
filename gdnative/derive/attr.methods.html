@@ -1,9 +1,30 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Collects method signatures of all functions in a `NativeClass` that have the `#[method]` attribute and registers them with Godot."><meta name="keywords" content="rust, rustlang, rust-lang, methods"><title>methods in gdnative::derive - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" href="../../normalize.css"><link rel="stylesheet" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" href="../../ayu.css" disabled><link rel="stylesheet" href="../../dark.css" disabled><link rel="stylesheet" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc attr"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container">
-                    <img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></div></a><div class="sidebar-elems"><h2 class="location"><a href="index.html">In gdnative::derive</a></h2></div></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../../gdnative/index.html">
-                        <img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="main-heading"><h1 class="fqn"><span class="in-band">Attribute Macro <a href="../index.html">gdnative</a>::<wbr><a href="index.html">derive</a>::<wbr><a class="attr" href="#">methods</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="../../clipboard.svg" width="19" height="18" alt="Copy item path"></button></span></h1><span class="out-of-band"><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">&#x2212;</span>]</a></span></div><div class="docblock item-decl"><pre class="rust attr"><code>#[methods]</code></pre></div><details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>Collects method signatures of all functions in a <code>NativeClass</code> that have the <code>#[method]</code> attribute and registers them with Godot.</p>
-<p><strong>Important</strong>: Only one <code>impl</code> block per struct may be attributed with <code>#[methods]</code>.</p>
-<p>For more context, please refer to <a href="derive.NativeClass.html">gdnative::derive::NativeClass</a>.</p>
-<h3 id="example"><a href="#example">Example</a></h3>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Collects method signatures of all functions in a `NativeClass` that have the `#[method]` attribute and registers them with Godot."><meta name="keywords" content="rust, rustlang, rust-lang, methods"><title>methods in gdnative::derive - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" href="../../normalize.css"><link rel="stylesheet" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" href="../../ayu.css" disabled><link rel="stylesheet" href="../../dark.css" disabled><link rel="stylesheet" href="../../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../../storage.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../main.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"></head><body class="rustdoc attr"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container"><img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></div></a><h2></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../../gdnative/index.html"><div class="logo-container">
+                    <img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></div></a><div class="sidebar-elems"><h2><a href="index.html">In gdnative::derive</a></h2></div></nav><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><a href="../../help.html">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../wheel.svg"></a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1 class="fqn">Attribute Macro <a href="../index.html">gdnative</a>::<wbr><a href="index.html">derive</a>::<wbr><a class="attr" href="#">methods</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="../../clipboard.svg" width="19" height="18" alt="Copy item path"></button></h1><span class="out-of-band"><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">&#x2212;</span>]</a></span></div><div class="item-decl"><pre class="rust attr"><code>#[methods]</code></pre></div><details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>Collects method signatures of all functions in a <code>NativeClass</code> that have the <code>#[method]</code>
+attribute and registers them with Godot.</p>
+<p>The <code>#[methods]</code> attribute can be used with both <code>impl Type</code> and <code>impl Trait for Type</code>
+blocks. The semantics change depending on whether a mix-in name is provided for the block.</p>
+<h3 id="universal-impl-blocks-methods"><a href="#universal-impl-blocks-methods">Universal <code>impl</code> blocks: <code>#[methods]</code></a></h3>
+<p>An <code>impl</code> block that doesn’t have a <code>mixin</code> parameter is universal. Universal <code>#[methods]</code>
+blocks <strong>must not overlap</strong>. Usually, this means that <strong>only one</strong> <code>impl</code> block per struct
+may be universal.</p>
+<p>When applied to a generic <code>impl</code>, the <code>impl</code> block must apply to <strong>all</strong> monomorphizations
+of the type, i.e. be <em>universal</em>.</p>
+<p>One applicable universal block must be present for each type one wishes to use as a
+<code>NativeClass</code>. Universal blocks are always registered automatically.</p>
+<h3 id="mix-ins-methodsmixin--name"><a href="#mix-ins-methodsmixin--name">Mix-ins: <code>#[methods(mixin = &quot;Name&quot;)]</code></a></h3>
+<p>When given a name with the <code>mixin</code> argument, a block behaves instead as a mix-in block.
+<code>#[method(mixin = &quot;Name&quot;)]</code> creates an opaque type called <code>Name</code> under the current scope,
+that can be manually registered to any type the <code>impl</code> block covers. This can be done in
+a <code>register_with</code> callback with <code>builder.mixin::&lt;MyMixin&gt;()</code>.</p>
+<p>Unlike universal blocks, mix-in blocks have a <strong>many-to-many</strong> relationship with the types
+they are registered to. Any number of mix-ins can be applied to any number of compatible
+types. This can be useful for reusing generics <code>impl</code>s, or organizing code for big interfaces.</p>
+<p>Additionally, the attribute accepts the following arguments:</p>
+<ul>
+<li><code>#[methods(pub)]</code><br>
+Mix-in types are private by default. The <code>pub</code> argument makes them public instead.</li>
+</ul>
+<h3 id="example"><a href="#example">Example</a></h3><h4 id="universal"><a href="#universal">Universal</a></h4>
 <div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>gdnative::prelude::<span class="kw-2">*</span>;
 
 <span class="attribute">#[derive(NativeClass)]
@@ -19,4 +40,24 @@
     }
 }
 </code></pre></div>
-</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.65.0 (897e37553 2022-11-02)" ></div></body></html>
+<h4 id="mix-in"><a href="#mix-in">Mix-in</a></h4>
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>gdnative::prelude::<span class="kw-2">*</span>;
+
+<span class="attribute">#[derive(NativeClass)]
+#[inherit(Reference)]
+#[register_with(register_foo)]
+#[no_constructor]
+</span><span class="kw">struct </span>Foo {}
+
+<span class="kw">fn </span>register_foo(builder: <span class="kw-2">&amp;</span>ClassBuilder&lt;Foo&gt;) {
+    builder.mixin::&lt;FooMixin&gt;();
+}
+
+<span class="attribute">#[methods(mixin = <span class="string">&quot;FooMixin&quot;</span>)]
+</span><span class="kw">impl </span>Foo {
+    <span class="attribute">#[method]
+    </span><span class="kw">fn </span>foo(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attribute">#[base] </span>_base: <span class="kw-2">&amp;</span>Reference, bar: i64) -&gt; i64 {
+        bar
+    }
+}</code></pre></div>
+</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="gdnative" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.66.0 (69f9c33d7 2022-12-12)" ></div></body></html>
