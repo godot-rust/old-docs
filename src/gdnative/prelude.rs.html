@@ -37,6 +37,9 @@
 <span id="36">36</span>
 <span id="37">37</span>
 <span id="38">38</span>
+<span id="39">39</span>
+<span id="40">40</span>
+<span id="41">41</span>
 </pre><pre class="rust"><code><span class="kw">pub use </span>gdnative_bindings::utils::<span class="kw-2">*</span>;
 <span class="kw">pub use </span>gdnative_bindings::{
     Button, CanvasItem, CanvasLayer, ColorRect, Control, Image, Input, InputEvent, InputEventKey,
@@ -44,10 +47,13 @@
     ResourceLoader, SceneTree, Shader, Spatial, Sprite, Texture, Timer, Tween, Viewport,
 };
 <span class="kw">pub use </span>gdnative_core::core_types::{
-    Aabb, Basis, ByteArray, Color, ColorArray, Dictionary, Float32Array, GodotError, GodotString,
-    Int32Array, NodePath, Plane, PoolArray, Quat, Rect2, Rid, StringArray, StringName, Transform,
-    Transform2D, Variant, VariantArray, VariantDispatch, VariantOperator, VariantType, Vector2,
-    Vector2Array, Vector3, Vector3Array,
+    Aabb, Basis, Color, Dictionary, GodotError, GodotString, NodePath, Plane, PoolArray, Quat,
+    Rect2, Rid, StringName, Transform, Transform2D, Variant, VariantArray, VariantDispatch,
+    VariantOperator, VariantType, Vector2, Vector3,
+};
+<span class="attribute">#[allow(deprecated)]
+</span><span class="kw">pub use </span>gdnative_core::core_types::{
+    ByteArray, ColorArray, Float32Array, Int32Array, StringArray, Vector2Array, Vector3Array,
 };
 <span class="kw">pub use </span>gdnative_core::core_types::{
     FromVariant, FromVariantError, OwnedToVariant, ToVariant, ToVariantEq,
