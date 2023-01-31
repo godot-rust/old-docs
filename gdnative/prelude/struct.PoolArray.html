@@ -23,15 +23,14 @@ CoW behavior each time they are called.</p>
 <code>FromIterator</code> trait, which allows it to be constructed from iterators, typically through <code>collect()</code>.</p>
 <p>For example:</p>
 
-<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="comment">// Int32Array is a type alias for PoolArray&lt;i32&gt;
-</span><span class="kw">use </span>gdnative::core_types::Int32Array;
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>gdnative::core_types::PoolArray;
 
 <span class="comment">// Collect from range
-</span><span class="kw">let </span>arr = (<span class="number">0</span>..<span class="number">4</span>).collect::&lt;Int32Array&gt;();
+</span><span class="kw">let </span>arr = (<span class="number">0i32</span>..<span class="number">4</span>).collect::&lt;PoolArray&lt;<span class="kw">_</span>&gt;&gt;();
 
 <span class="comment">// Type conversion
 </span><span class="kw">let </span>vec: Vec&lt;u32&gt; = <span class="macro">vec!</span>[<span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">5</span>]; <span class="comment">// note: unsigned
-</span><span class="kw">let </span>arr = vec.iter().map(|<span class="kw-2">&amp;</span>e| e <span class="kw">as </span>i32).collect::&lt;Int32Array&gt;();</code></pre></div>
+</span><span class="kw">let </span>arr = vec.iter().map(|<span class="kw-2">&amp;</span>e| e <span class="kw">as </span>i32).collect::&lt;PoolArray&lt;<span class="kw">_</span>&gt;&gt;();</code></pre></div>
 </div></details><details class="rustdoc-toggle method-toggle" open><summary><section id="method.to_vec" class="method has-srclink"><h4 class="code-header">pub fn <a href="#method.to_vec" class="fn">to_vec</a>(&amp;self) -&gt; <a class="struct" href="https://doc.rust-lang.org/1.67.0/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;T, <a class="struct" href="https://doc.rust-lang.org/1.67.0/alloc/alloc/struct.Global.html" title="struct alloc::alloc::Global">Global</a>&gt;<span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;T: <a class="trait" href="https://doc.rust-lang.org/1.67.0/core/clone/trait.Clone.html" title="trait core::clone::Clone">Clone</a>,</span></h4></section></summary><div class="docblock"><p>Copies all elements to a <code>Vec</code>, leaving this instance untouched.</p>
 <p>Equivalent to <code>self.read().to_vec()</code>. Only use this if your destination type is precisely
 a <code>Vec&lt;T&gt;</code>. Otherwise, call <a href="../core_types/struct.PoolArray.html#method.read" title="Self::read"><code>read()</code></a> which can be used as a slice.</p>
