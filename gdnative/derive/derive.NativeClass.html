@@ -106,7 +106,16 @@ for more information.</p>
 <a href="https://docs.godotengine.org/en/stable/tutorials/export/exporting_basics.html">exporting</a> in GDScript.</p>
 <p>A valid function signature must have:</p>
 <ul>
-<li><code>self</code>, <code>&amp;self</code> or <code>&amp;mut self</code> as its first parameter, if applicable.</li>
+<li>Up to one receiver parameter as the first parameter. This can be one of:
+<ul>
+<li><code>self</code>, <code>&amp;self</code> or <code>&amp;mut self</code>.</li>
+<li><code>self: Instance&lt;Self&gt;</code> or <code>self: TInstance&lt;Self&gt;</code>, when the <code>arbitrary_self_types</code> feature
+is available. Additionally, <code>self: Arc&lt;Self&gt;</code> is allowed when the <code>user_data</code> wrapper is
+specified to be <code>ArcData&lt;Self&gt;</code>.</li>
+<li><code>#[self] this: T</code> where <code>T</code> is any of the types mentioned above, as a workaround when
+<code>arbitrary_self_types</code> is unavailable.</li>
+</ul>
+</li>
 <li>Up of one of each of the following special arguments, in any order, denoted by the attributes:
 <ul>
 <li><code>#[base]</code> - A reference to the base/owner object. This may be <code>&amp;T</code> or <code>TRef&lt;T&gt;</code>m where <code>T</code> refers to
@@ -126,6 +135,10 @@ or be a <code>Variant</code> type.</li>
 <div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="comment">// Associated function
 </span><span class="attr">#[method]
 </span><span class="kw">fn </span>foo();
+
+<span class="comment">// Access `TInstance` instead of a variation of `self`, without `arbitrary_self_types`.
+</span><span class="attr">#[method]
+</span><span class="kw">fn </span>foo(<span class="attr">#[<span class="self">self</span>] </span>this: TInstance&lt;<span class="self">Self</span>&gt;);
 
 <span class="comment">// No access to base parameter
 </span><span class="attr">#[method]
@@ -279,4 +292,4 @@ as required by the async runtime:</p>
 <p>Returns a <code>Control</code> node that should be used as a tooltip instead of the default one.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-make-custom-tooltip">Godot docs</a> for more information.</em>
 <br><br></p>
-</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-static-root-path="../../static.files/" data-current-crate="gdnative" data-themes="" data-resource-suffix="" data-rustdoc-version="1.67.0 (fc594f156 2023-01-24)" data-search-js="search-444266647c4dba98.js" data-settings-js="settings-bebeae96e00e4617.js" data-settings-css="settings-af96d9e2fc13e081.css" ></div></body></html>
+</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-static-root-path="../../static.files/" data-current-crate="gdnative" data-themes="" data-resource-suffix="" data-rustdoc-version="1.67.1 (d5a82bbd2 2023-02-07)" data-search-js="search-444266647c4dba98.js" data-settings-js="settings-bebeae96e00e4617.js" data-settings-css="settings-af96d9e2fc13e081.css" ></div></body></html>
