@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["MovingPlatformApplyVelocityOnLeave",""]]};
+window.SIDEBAR_ITEMS = {"struct":["MovingPlatformApplyVelocityOnLeave"]};

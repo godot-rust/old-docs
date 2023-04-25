@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ConnectionState",""]]};
+window.SIDEBAR_ITEMS = {"struct":["ConnectionState"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ChangeType",""],["TreeArea",""]]};
+window.SIDEBAR_ITEMS = {"struct":["ChangeType","TreeArea"]};

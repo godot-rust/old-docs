@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["MixMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["MixMode"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["InterpolatedCameraProcessMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["InterpolatedCameraProcessMode"]};

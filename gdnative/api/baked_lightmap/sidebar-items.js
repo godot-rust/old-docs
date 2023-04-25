@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["BakeError",""],["BakeQuality",""],["EnvironmentMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["BakeError","BakeQuality","EnvironmentMode"]};

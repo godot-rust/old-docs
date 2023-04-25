@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DopplerTracking",""],["KeepAspect",""],["Projection",""]]};
+window.SIDEBAR_ITEMS = {"struct":["DopplerTracking","KeepAspect","Projection"]};

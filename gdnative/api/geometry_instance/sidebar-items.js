@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["Flags",""],["LightmapScale",""],["ShadowCastingSetting",""]]};
+window.SIDEBAR_ITEMS = {"struct":["Flags","LightmapScale","ShadowCastingSetting"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CursorShape",""],["MouseMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["CursorShape","MouseMode"]};

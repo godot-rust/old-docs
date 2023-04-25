@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ShadowDepthRange",""],["ShadowMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["ShadowDepthRange","ShadowMode"]};

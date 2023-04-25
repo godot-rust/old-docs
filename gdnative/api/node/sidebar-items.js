@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DuplicateFlags",""],["PauseMode",""],["PhysicsInterpolationMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["DuplicateFlags","PauseMode","PhysicsInterpolationMode"]};

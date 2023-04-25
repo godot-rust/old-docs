@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["Align",""]]};
+window.SIDEBAR_ITEMS = {"struct":["Align"]};

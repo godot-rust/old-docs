@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["BakeMode",""],["Param",""]]};
+window.SIDEBAR_ITEMS = {"struct":["BakeMode","Param"]};

@@ -1,5 +1,5 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Makes it possible to use a type as a NativeScript. Automatically registers the type if the `inventory` feature is enabled on supported platforms."><meta name="keywords" content="rust, rustlang, rust-lang, NativeClass"><title>NativeClass in gdnative::prelude - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceSerif4-Regular-1f7d512b176f0f72.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/FiraSans-Regular-018c141bf0843ffd.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/FiraSans-Medium-8f9a781e4970d388.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceSerif4-Bold-124a1ca42af929b6.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2"><link rel="stylesheet" href="../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../static.files/rustdoc-93196c7a1c3542a8.css" id="mainThemeStyle"><link rel="stylesheet" id="themeStyle" href="../../static.files/light-4743e13df3dfe8c4.css"><link rel="stylesheet" disabled href="../../static.files/dark-0e1b889528bd466b.css"><link rel="stylesheet" disabled href="../../static.files/ayu-65289d5d067c7c66.css"><script id="default-settings" ></script><script src="../../static.files/storage-d43fa987303ecbbb.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../static.files/main-3367e395607fafc1.js"></script><noscript><link rel="stylesheet" href="../../static.files/noscript-13285aec31fa243e.css"></noscript><link rel="alternate icon" type="image/png" href="../../static.files/favicon-16x16-8b506e7a72182f1c.png"><link rel="alternate icon" type="image/png" href="../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../static.files/favicon-2c020d218678b618.svg"></head><body class="rustdoc derive"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="logo-container" href="../../gdnative/index.html"><img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></a><h2></h2></nav><nav class="sidebar"><a class="logo-container" href="../../gdnative/index.html">
-                <img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></a><div class="sidebar-elems"><h2><a href="index.html">In gdnative::prelude</a></h2></div></nav><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><a href="../../help.html">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../static.files/wheel-5ec35bf9ca753509.svg"></a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Derive Macro <a href="../index.html">gdnative</a>::<wbr><a href="index.html">prelude</a>::<wbr><a class="derive" href="#">NativeClass</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="../../static.files/clipboard-7571035ce49a181d.svg" width="19" height="18" alt="Copy item path"></button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><div class="item-decl"><pre class="rust"><code>#[derive(NativeClass)]
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Makes it possible to use a type as a NativeScript. Automatically registers the type if the `inventory` feature is enabled on supported platforms."><title>NativeClass in gdnative::prelude - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceSerif4-Regular-46f98efaafac5295.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/FiraSans-Regular-018c141bf0843ffd.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/FiraSans-Medium-8f9a781e4970d388.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceSerif4-Bold-a2c9cd1067f8b328.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../static.files/SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2"><link rel="stylesheet" href="../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../static.files/rustdoc-c4dbdcde0fbd8430.css" id="mainThemeStyle"><link rel="stylesheet" id="themeStyle" href="../../static.files/light-db279b6232be9c13.css"><link rel="stylesheet" disabled href="../../static.files/dark-cf923f49f397b216.css"><link rel="stylesheet" disabled href="../../static.files/ayu-be46fdc453a55015.css"><script src="../../static.files/storage-3891ce972e3a2bf8.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../static.files/main-98a684e84ae5b08b.js"></script><noscript><link rel="stylesheet" href="../../static.files/noscript-13285aec31fa243e.css"></noscript><link rel="alternate icon" type="image/png" href="../../static.files/favicon-16x16-8b506e7a72182f1c.png"><link rel="alternate icon" type="image/png" href="../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../static.files/favicon-2c020d218678b618.svg"></head><body class="rustdoc derive"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="logo-container" href="../../gdnative/index.html"><img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></a><h2></h2></nav><nav class="sidebar"><a class="logo-container" href="../../gdnative/index.html">
+                <img src="https://github.com/godot-rust/gdnative/raw/master/assets/godot-ferris.svg" alt="logo"></a><div class="sidebar-elems"><h2><a href="index.html">In gdnative::prelude</a></h2></div></nav><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><a href="../../help.html">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../static.files/wheel-7b819b6101059cd0.svg"></a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Derive Macro <a href="../index.html">gdnative</a>::<wbr><a href="index.html">prelude</a>::<wbr><a class="derive" href="#">NativeClass</a><button id="copy-path" title="Copy item path to clipboard"><img src="../../static.files/clipboard-7571035ce49a181d.svg" width="19" height="18" alt="Copy item path"></button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>#[derive(NativeClass)]
 {
     // Attributes available to this derive:
     #[inherit]
@@ -8,7 +8,7 @@
     #[user_data]
     #[property]
 }
-</code></pre></div><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>Makes it possible to use a type as a NativeScript. Automatically registers the type
+</code></pre><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>Makes it possible to use a type as a NativeScript. Automatically registers the type
 if the <code>inventory</code> feature is enabled on supported platforms.</p>
 <h3 id="type-attributes"><a href="#type-attributes">Type attributes</a></h3>
 <p>The behavior of the derive macro can be customized using attributes on the type
@@ -132,7 +132,7 @@ Optional parameters must appear at the end of the parameter list.</li>
 or be a <code>Variant</code> type.</li>
 </ul>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="comment">// Associated function
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="comment">// Associated function
 </span><span class="attr">#[method]
 </span><span class="kw">fn </span>foo();
 
@@ -194,7 +194,7 @@ Refer to <a href="https://docs.godotengine.org/en/stable/tutorials/networking/hi
 returning a reference (or in general, a type that dereferences to something that can be exported).</p>
 <p>For example:</p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="attr">#[method(deref_return)]
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="attr">#[method(deref_return)]
 </span><span class="kw">fn </span>get_numbers(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; std::cell::Ref&lt;Vec&lt;i32&gt;&gt; {
    <span class="comment">// Assume self.cell is std::cell::RefCell&lt;Vec&lt;i32&gt;&gt;
    </span><span class="self">self</span>.cell.borrow()
@@ -207,7 +207,7 @@ This is especially useful for working around Rust’s lifetime elision rules, wh
 return value for <code>async fn</code>s. The <code>impl Future</code> syntax instead allows one to explicitly specify a <code>'static</code> lifetime,
 as required by the async runtime:</p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="comment">// This will NOT compile: Rust assumes that any futures returned by an `async fn` may only live as long as each of its
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="comment">// This will NOT compile: Rust assumes that any futures returned by an `async fn` may only live as long as each of its
 // arguments, and there is no way to tell it otherwise. As a result, it will emit some cryptic complaints about lifetime.
 </span><span class="attr">#[method]
 </span><span class="kw">async fn </span>answer(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; i32 {
@@ -226,70 +226,70 @@ as required by the async runtime:</p>
 <p>This is a list of common Godot virtual functions that are automatically called via <a href="https://docs.godotengine.org/en/stable/classes/class_object.html#class-object-method-notification">notifications</a>.</p>
 <p>It is assumed that every method is exported via <code>#[method]</code> attribute. The parameter <code>#[base] base: &amp;Node</code> can be omitted if you don’t need it.</p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_ready(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_ready(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
 <p>Called when both the node and its children have entered the scene tree.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-ready">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_enter_tree(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_enter_tree(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
 <p>Called when the node enters the scene tree.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-enter-tree">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_exit_tree(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_exit_tree(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node);</code></pre></div>
 <p>Called when the node is removed from the scene tree.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-exit-tree">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_get_configuration_warning(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node) -&gt; GodotString;</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_get_configuration_warning(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node) -&gt; GodotString;</code></pre></div>
 <p>The string returned from this method is displayed as a warning in the Scene Dock if the script that overrides it is a tool script.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-get-configuration-warning">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_process(<span class="kw-2">&amp;mut </span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, delta: f64);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_process(<span class="kw-2">&amp;mut </span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, delta: f64);</code></pre></div>
 <p>Called during processing step of the main loop.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-process">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_physics_process(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, delta: f64);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_physics_process(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, delta: f64);</code></pre></div>
 <p>Called during physics update, with a fixed timestamp.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-physics-process">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputEvent&gt;);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputEvent&gt;);</code></pre></div>
 <p>Called when there is an input event.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_unhandled_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputEvent&gt;);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_unhandled_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputEvent&gt;);</code></pre></div>
 <p>Called when an <code>InputEvent</code> hasn’t been consumed by <code>_input()</code> or any GUI.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-unhandled-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_unhandled_key_input (<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputKeyEvent&gt;);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_unhandled_key_input (<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Node, event: Ref&lt;InputKeyEvent&gt;);</code></pre></div>
 <p>Called when an <code>InputEventKey</code> hasn’t been consumed by <code>_input()</code> or any GUI.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-unhandled-key-input">Godot docs</a> for more information.</em>
 <br><br></p>
 <h5 id="control-virtual-functions"><a href="#control-virtual-functions"><code>Control</code> virtual functions</a></h5>
 <p>This is a list of common Godot virtual functions that are automatically called via <a href="https://docs.godotengine.org/en/stable/classes/class_object.html#class-object-method-notification">notifications</a>.</p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_clips_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control) -&gt; bool;</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_clips_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control) -&gt; bool;</code></pre></div>
 <p>Returns whether <code>_gui_input()</code> should not be called for children controls outside this control’s rectangle.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-clips-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_get_minimum_size(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control) -&gt; Vector2;</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_get_minimum_size(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control) -&gt; Vector2;</code></pre></div>
 <p>Returns the minimum size for this control.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-get-minimum-size">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_gui_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control, event: Ref&lt;InputEvent&gt;);</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_gui_input(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control, event: Ref&lt;InputEvent&gt;);</code></pre></div>
 <p>Use this method to process and accept inputs on UI elements.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-gui-input">Godot docs</a> for more information.</em>
 <br><br></p>
 
-<div class="example-wrap ignore"><div class='tooltip'>ⓘ</div><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_make_custom_tooltip(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control, for_text: String) -&gt; Ref&lt;Control&gt;;</code></pre></div>
+<div class="example-wrap ignore"><a href="#" class="tooltip" title="This example is not tested">ⓘ</a><pre class="rust rust-example-rendered"><code><span class="kw">fn </span>_make_custom_tooltip(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="attr">#[base] </span>base: <span class="kw-2">&amp;</span>Control, for_text: String) -&gt; Ref&lt;Control&gt;;</code></pre></div>
 <p>Returns a <code>Control</code> node that should be used as a tooltip instead of the default one.<br />
 <em>See <a href="https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-method-make-custom-tooltip">Godot docs</a> for more information.</em>
 <br><br></p>
-</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-static-root-path="../../static.files/" data-current-crate="gdnative" data-themes="" data-resource-suffix="" data-rustdoc-version="1.68.2 (9eb3afe9e 2023-03-27)" data-search-js="search-98d53477a794af0b.js" data-settings-js="settings-c3c521c753752a1a.js" data-settings-css="settings-08ddfdda51b8ee2e.css" ></div></body></html>
+</div></details></section></div></main><div id="rustdoc-vars" data-root-path="../../" data-static-root-path="../../static.files/" data-current-crate="gdnative" data-themes="" data-resource-suffix="" data-rustdoc-version="1.69.0 (84c898d65 2023-04-16)" data-search-js="search-8a59a8356673ec1f.js" data-settings-js="settings-f0c5c39777a9a2f6.js" data-settings-css="settings-0bcba95ff279c1db.css" ></div></body></html>

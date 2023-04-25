@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["TrackerHand",""]]};
+window.SIDEBAR_ITEMS = {"struct":["TrackerHand"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CloseButtonDisplayPolicy",""],["TabAlign",""]]};
+window.SIDEBAR_ITEMS = {"struct":["CloseButtonDisplayPolicy","TabAlign"]};

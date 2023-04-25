@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DraggerVisibility",""]]};
+window.SIDEBAR_ITEMS = {"struct":["DraggerVisibility"]};

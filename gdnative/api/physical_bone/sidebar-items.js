@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["JointType",""]]};
+window.SIDEBAR_ITEMS = {"struct":["JointType"]};

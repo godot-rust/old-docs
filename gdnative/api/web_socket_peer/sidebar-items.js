@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["WriteMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["WriteMode"]};

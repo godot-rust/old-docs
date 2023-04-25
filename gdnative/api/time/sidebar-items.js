@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["Month",""],["Weekday",""]]};
+window.SIDEBAR_ITEMS = {"struct":["Month","Weekday"]};

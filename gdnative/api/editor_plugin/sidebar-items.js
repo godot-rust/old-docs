@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CustomControlContainer",""],["DockSlot",""]]};
+window.SIDEBAR_ITEMS = {"struct":["CustomControlContainer","DockSlot"]};

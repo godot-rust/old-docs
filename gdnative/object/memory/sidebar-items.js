@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":[["ManuallyManaged","Marker that indicates that a type is manually managed."],["RefCounted","Marker that indicates that a type is reference-counted."]],"trait":[["Memory","Trait to parameterize over the memory management markers [`ManuallyManaged`] and [`RefCounted`]."]]};
+window.SIDEBAR_ITEMS = {"enum":["ManuallyManaged","RefCounted"],"trait":["Memory"]};

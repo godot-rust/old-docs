@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["StretchMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["StretchMode"]};

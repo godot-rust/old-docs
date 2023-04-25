@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DispatchMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["DispatchMode"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["TextureSize",""]]};
+window.SIDEBAR_ITEMS = {"struct":["TextureSize"]};

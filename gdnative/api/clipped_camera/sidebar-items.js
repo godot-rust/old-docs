@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ProcessMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["ProcessMode"]};

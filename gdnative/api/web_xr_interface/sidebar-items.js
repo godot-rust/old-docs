@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["TargetRayMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["TargetRayMode"]};

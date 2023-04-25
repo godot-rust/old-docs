@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ColorFormat",""],["CustomDataFormat",""],["PhysicsInterpolationQuality",""],["TransformFormat",""]]};
+window.SIDEBAR_ITEMS = {"struct":["ColorFormat","CustomDataFormat","PhysicsInterpolationQuality","TransformFormat"]};

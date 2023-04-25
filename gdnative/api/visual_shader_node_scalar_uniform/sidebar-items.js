@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["Hint",""]]};
+window.SIDEBAR_ITEMS = {"struct":["Hint"]};

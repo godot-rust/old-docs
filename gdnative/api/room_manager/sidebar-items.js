@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["PvsMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["PvsMode"]};

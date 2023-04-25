@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CullMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["CullMode"]};

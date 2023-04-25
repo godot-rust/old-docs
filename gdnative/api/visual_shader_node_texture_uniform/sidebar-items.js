@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ColorDefault",""],["TextureType",""]]};
+window.SIDEBAR_ITEMS = {"struct":["ColorDefault","TextureType"]};

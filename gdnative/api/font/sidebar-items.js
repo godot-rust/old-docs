@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ContourPointTag",""]]};
+window.SIDEBAR_ITEMS = {"struct":["ContourPointTag"]};

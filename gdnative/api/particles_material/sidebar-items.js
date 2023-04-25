@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["EmissionShape",""],["Flags",""],["Parameter",""]]};
+window.SIDEBAR_ITEMS = {"struct":["EmissionShape","Flags","Parameter"]};

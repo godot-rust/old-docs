@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["AlphaMode",""],["CompressMode",""],["CompressSource",""],["Format",""],["Interpolation",""]]};
+window.SIDEBAR_ITEMS = {"struct":["AlphaMode","CompressMode","CompressSource","Format","Interpolation"]};

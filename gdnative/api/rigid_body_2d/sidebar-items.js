@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CcdMode",""],["Mode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["CcdMode","Mode"]};

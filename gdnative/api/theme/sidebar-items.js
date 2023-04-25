@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DataType",""]]};
+window.SIDEBAR_ITEMS = {"struct":["DataType"]};

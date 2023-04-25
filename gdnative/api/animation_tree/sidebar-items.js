@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["AnimationProcessMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["AnimationProcessMode"]};

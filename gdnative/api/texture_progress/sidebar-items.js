@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["FillMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["FillMode"]};

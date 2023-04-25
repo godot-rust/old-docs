@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["YieldMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["YieldMode"]};

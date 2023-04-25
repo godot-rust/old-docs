@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["Aligned","A pool array access that is (assumed to be) aligned."],["MaybeUnaligned","A pool array access that may be unaligned."],["Owned","A pool array write access with an owned aligned copy. The data is written back when this is dropped."]],"trait":[["Guard","Trait for array access guards"],["WritePtr","Marker trait for write access guards"]]};
+window.SIDEBAR_ITEMS = {"struct":["Aligned","MaybeUnaligned","Owned"],"trait":["Guard","WritePtr"]};

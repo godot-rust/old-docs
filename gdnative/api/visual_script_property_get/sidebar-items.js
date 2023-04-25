@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CallMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["CallMode"]};

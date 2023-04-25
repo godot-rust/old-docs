@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["HashType",""]]};
+window.SIDEBAR_ITEMS = {"struct":["HashType"]};

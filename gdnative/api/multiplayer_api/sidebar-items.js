@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["RpcMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["RpcMode"]};

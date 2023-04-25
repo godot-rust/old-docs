@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["TweenPauseMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["TweenPauseMode"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DrawOrder",""]]};
+window.SIDEBAR_ITEMS = {"struct":["DrawOrder"]};

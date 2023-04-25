@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":[["GodotCharError","Error indicating that a `GodotChar` cannot be converted to a `char`."]],"struct":[["GodotChar","Type representing a character in Godot’s native encoding. Can be converted to and from `char`. Depending on the platform, this might not always be able to represent a full code point."],["GodotString","Godot’s reference-counted string type."],["StringName","Interned string."]]};
+window.SIDEBAR_ITEMS = {"enum":["GodotCharError"],"struct":["GodotChar","GodotString","StringName"]};

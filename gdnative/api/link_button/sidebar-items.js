@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["UnderlineMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["UnderlineMode"]};

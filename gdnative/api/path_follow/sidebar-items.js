@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["RotationMode",""]]};
+window.SIDEBAR_ITEMS = {"struct":["RotationMode"]};

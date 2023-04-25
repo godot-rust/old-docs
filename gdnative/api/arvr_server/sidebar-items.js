@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["RotationMode",""],["TrackerType",""]]};
+window.SIDEBAR_ITEMS = {"struct":["RotationMode","TrackerType"]};
